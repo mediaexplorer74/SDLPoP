@@ -386,7 +386,8 @@ static FILE* open_dat_from_root_or_data_dir(const char* filename) {
 int __pascal far showmessage(char far *text,int arg_4,void far *arg_0);
 
 // seg009:0F58
-dat_type *__pascal open_dat(const char *filename,int drive) {
+dat_type *__pascal open_dat(const char *filename,int drive) 
+{
 	FILE* fp = NULL;
 	if (!use_custom_levelset) {
 		fp = open_dat_from_root_or_data_dir(filename);
@@ -1469,20 +1470,20 @@ void __pascal far dialog_method_2_frame(dialog_type *dialog) {
 	short text_bottom = dialog->text_rect.bottom;
 	short text_right = dialog->text_rect.right;
 	// Draw outer border
-	rect = { peel_top, peel_left, peel_bottom - shadow_bottom, peel_right - shadow_right };
+	rect = { peel_top, peel_left, (short)(peel_bottom - shadow_bottom), (short)(peel_right - shadow_right) };
 	draw_rect(&rect, color_0_black);
 	// Draw shadow (right)
-	rect = { text_top, peel_right - shadow_right, peel_bottom, peel_right };
+	rect = { text_top, (short)(peel_right - shadow_right), peel_bottom, peel_right };
 	draw_rect(&rect, get_text_color(0, color_8_darkgray /*dialog's shadow*/, 0));
 	// Draw shadow (bottom)
-	rect = { peel_bottom - shadow_bottom, text_left, peel_bottom, peel_right };
+	rect = { (short)(peel_bottom - shadow_bottom), text_left, peel_bottom, peel_right };
 	draw_rect(&rect, get_text_color(0, color_8_darkgray /*dialog's shadow*/, 0));
 	// Draw inner border (left)
-	rect = { peel_top + outer_border, peel_left + outer_border, text_bottom, text_left };
+	rect = { (short)(peel_top + outer_border), (short)(peel_left + outer_border), text_bottom, text_left };
 	//rect = (rect_type) { peel_top + outer_border, peel_left + outer_border, text_bottom, text_left };
 	draw_rect(&rect, color_15_brightwhite);
 	// Draw inner border (top)
-	rect = { peel_top + outer_border, text_left, text_top, text_right + dialog->settings->right_border - outer_border };
+	rect = { (short)(peel_top + outer_border), text_left, text_top, (short)(text_right + dialog->settings->right_border - outer_border) };
 	//rect = (rect_type) { peel_top + outer_border, text_left, text_top, text_right + dialog->settings->right_border - outer_border };
 	draw_rect(&rect, color_15_brightwhite);
 	// Draw inner border (right)
@@ -1491,7 +1492,7 @@ void __pascal far dialog_method_2_frame(dialog_type *dialog) {
 	rect.bottom = text_bottom + bottom_border - outer_border;           // (rect.right stays the same)
 	draw_rect(&rect, color_15_brightwhite);
 	// Draw inner border (bottom)
-	rect = { text_bottom, peel_left + outer_border, text_bottom + bottom_border - outer_border, text_right };
+	rect = { text_bottom, (short)(peel_left + outer_border), (short)(text_bottom + bottom_border - outer_border), text_right };
 	//rect = (rect_type){ text_bottom, peel_left + outer_border, text_bottom + bottom_border - outer_border, text_right };
 	draw_rect(&rect, color_15_brightwhite);
 }

@@ -1,0 +1,6 @@
+c:\Users\media\source\repos\SDLPoP\SDL2\VisualC-WinRT\UWP_VS2015\SDL-UWP.vcxproj;arm
+c:\Users\media\source\repos\SDLPoP\SDL2\VisualC-WinRT\UWP_VS2015\SDL-UWP.vcxproj;arm
+c:\Users\media\source\repos\SDLPoP\SDLPoP\SDLPoP.vcxproj;arm
+c:\Users\media\source\repos\SDLPoP\WindowsUWP\libpng-UWP.vcxproj;arm
+c:\Users\media\source\repos\SDLPoP\WindowsUWP\SDL_image-UWP.vcxproj;arm
+c:\Users\media\source\repos\SDLPoP\WindowsUWP\zlib-UWP.vcxproj;arm

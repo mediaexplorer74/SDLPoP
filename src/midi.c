@@ -609,7 +609,9 @@ void free_midi_resources() {
 	free(instruments_data);
 }
 
-void init_midi() {
+//
+void init_midi() 
+{
 	static bool initialized = false;
 	if (initialized) return;
 	initialized = true;

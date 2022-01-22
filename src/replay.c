@@ -539,7 +539,8 @@ int savestate_to_buffer() {
 	return ok;
 }
 
-void reload_resources() {
+void reload_resources() 
+{
 	// the replay's levelset might use different sounds, so we need to free and reload sounds
 	free_all_sounds();
 	load_all_sounds();

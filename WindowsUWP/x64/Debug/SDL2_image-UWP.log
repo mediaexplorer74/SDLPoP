@@ -1,0 +1,31 @@
+﻿  IMG.c
+  IMG_bmp.c
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG.c: No such file or directory,
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG_bmp.c: No such file or directory,
+  IMG_gif.c
+  IMG_jpg.c
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG_gif.c: No such file or directory,
+  IMG_lbm.c
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG_jpg.c: No such file or directory,
+  IMG_pcx.c
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG_lbm.c: No such file or directory,
+  IMG_png.c
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG_pcx.c: No such file or directory,
+  IMG_pnm.c
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG_png.c: No such file or directory,
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG_pnm.c: No such file or directory,
+  IMG_tga.c
+  IMG_tif.c
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG_tga.c: No such file or directory,
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG_tif.c: No such file or directory,
+  IMG_webp.c
+  IMG_xcf.c
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG_webp.c: No such file or directory,
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG_xcf.c: No such file or directory,
+  IMG_xpm.c
+  IMG_xv.c
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG_xv.c: No such file or directory,
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG_xpm.c: No such file or directory,
+  IMG_xxx.c
+c1 : fatal error C1083: Не удается открыть файл источник: ..\SDL_image\IMG_xxx.c: No such file or directory,
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.15063.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(415,5): error MSB4181: задача "CompileXaml" возвратила значение false, но не зарегистрировала ошибку.
