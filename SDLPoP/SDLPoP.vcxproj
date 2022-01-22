@@ -419,10 +419,10 @@
     <ResourceCompile Include="Externals\SDL2\src\main\winrt\SDL2-WinRTResources.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SDL2\VisualC-WinRT\UWP_VS2015\SDL-UWP.vcxproj">
+    <ProjectReference Include="..\SDL2\SDL-UWP.vcxproj">
       <Project>{89e9b32e-a86a-47c3-a948-d2b1622925ce}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\WindowsUWP\SDL_image-UWP.vcxproj">
+    <ProjectReference Include="..\SDL2_image\SDL_image-UWP.vcxproj">
       <Project>{29b4d11f-59f3-4ebc-a769-3babd140db9a}</Project>
     </ProjectReference>
   </ItemGroup>
