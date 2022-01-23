@@ -28,47 +28,95 @@ The authors of this program may be contacted at https://forum.princed.org
 #else
 #include "dirent.h"
 #endif
+#include <ppltasks.h>
 
 using namespace Windows::Storage;
+using namespace Platform;
+
 
 // Most functions in this file are different from those in the original game.
 
-void sdlperror(const char* header) {
+void sdlperror(const char* header) 
+{
 	const char* error = SDL_GetError();
 	printf("%s: %s\n",header,error);
 	//quit(1);
 }
 
-char exe_dir[POP_MAX_PATH] = ".";
+//char exe_dir[POP_MAX_PATH] = "."; // bad case (A)
+String^ exe_dir = ".";              // plan B
+
 bool found_exe_dir = false;
 
-void find_exe_dir() {
+void find_exe_dir() 
+{
+	
+	//StorageFolder^ picturesFolder = KnownFolders::GetFolderForUserAsync(nullptr /* current user */, KnownFolderId::MusicLibrary);//KnownFolders::MusicLibrary;
+	
+	// Get the path to the app's installation folder.
+	//String^ appPath = Windows::ApplicationModel::Package::Current->InstalledLocation->Path;
+	//String^ musicFolderPath = KnownFolders::MusicLibrary->Path;
+	String^ imagesFolderPath = KnownFolders::PicturesLibrary->Path;
+
 	if (found_exe_dir) return;
-	wcstombs(exe_dir, Windows::Storage::ApplicationData::Current->LocalFolder->Path->Data(), POP_MAX_PATH);
-	/*snprintf_check(exe_dir, sizeof(exe_dir), "%s", Windows::Storage::ApplicationData::Current->LocalFolder->Path);
+	
+	//wcstombs
+	//(exe_dir, Windows::Storage::ApplicationData::Current->LocalFolder->Path->Data(), 
+	//	POP_MAX_PATH
+	//);
+
+	exe_dir = imagesFolderPath;//musicFolderPath;//appPath;
+	
+	
+	/*
+	wcstombs
+	(exe_dir, Windows::Storage::KnownFolders::MusicLibrary->Path->Data(),//PicturesLibrary->Path->Data(),//      ::ApplicationData::Current->LocalFolder->Path->Data(),
+		POP_MAX_PATH
+	);
+	*/
+		
+
+	//RnD
+	//snprintf_check(exe_dir, sizeof(exe_dir), "%s", Windows::Storage::KnownFolders::PicturesLibrary->Path);
+		
+	//snprintf_check(exe_dir, sizeof(exe_dir), "%s", Windows::Storage::ApplicationData::Current->LocalFolder->Path);
+	
+	/*
 	char* last_slash = NULL;
+	
 	char* pos = exe_dir;
-	for (char c = *pos; c != '\0'; c = *(++pos)) {
+	for (char c = *pos; c != '\0'; c = *(++pos)) 
+	{
 		if (c == '/' || c == '\\') {
 			last_slash = pos;
 		}
 	}
-	if (last_slash != NULL) {
+	if (last_slash != NULL) 
+	{
 		*last_slash = '\0';
 	}*/
+
 	found_exe_dir = true;
-}
 
-bool file_exists(const char* filename) {
+}//find_exe_dir
+
+bool file_exists(const char* filename) 
+{
     return (access(filename, F_OK) != -1);
-}
+}//
 
-const char* locate_file_(const char* filename, char* path_buffer, int buffer_size) {
+const char* locate_file_(const char* filename, char* path_buffer, int buffer_size) 
+{
 	find_exe_dir();
+
 	snprintf_check(path_buffer, buffer_size, "%s\\%s", exe_dir, filename);
-	if(file_exists(path_buffer)) {
+	
+	if(file_exists(path_buffer)) 
+	{
 		return (const char*)path_buffer;
-	} else {
+	} 
+	else 
+	{
 		/*
 		// old functionality
 		// If failed, it may be that SDLPoP is being run from the wrong different working directory.
@@ -91,7 +139,8 @@ const char* locate_file_(const char* filename, char* path_buffer, int buffer_siz
 #define WIN_UTF8ToString(S) (WCHAR *)SDL_iconv_string("UTF-16LE", "UTF-8", (char *)(S), SDL_strlen(S)+1)
 
 // This hack is needed because SDL uses UTF-8 everywhere (even in argv!), but fopen on Windows uses whatever code page is currently set.
-FILE* fopen_UTF8(const char* filename_UTF8, const char* mode_UTF8) {
+FILE* fopen_UTF8(const char* filename_UTF8, const char* mode_UTF8) 
+{
 	WCHAR* filename_UTF16 = WIN_UTF8ToString(filename_UTF8);
 	WCHAR* mode_UTF16 = WIN_UTF8ToString(mode_UTF8);
 	FILE* result = _wfopen(filename_UTF16, mode_UTF16);
@@ -100,21 +149,24 @@ FILE* fopen_UTF8(const char* filename_UTF8, const char* mode_UTF8) {
 	return result;
 }
 
-int chdir_UTF8(const char* path_UTF8) {
+int chdir_UTF8(const char* path_UTF8) 
+{
 	WCHAR* path_UTF16 = WIN_UTF8ToString(path_UTF8);
 	int result = _wchdir(path_UTF16);
 	SDL_free(path_UTF16);
 	return result;
 }
 
-int mkdir_UTF8(const char* path_UTF8) {
+int mkdir_UTF8(const char* path_UTF8) 
+{
 	WCHAR* path_UTF16 = WIN_UTF8ToString(path_UTF8);
 	int result = _wmkdir(path_UTF16);
 	SDL_free(path_UTF16);
 	return result;
 }
 
-int access_UTF8(const char* filename_UTF8, int mode) {
+int access_UTF8(const char* filename_UTF8, int mode) 
+{
 	WCHAR* filename_UTF16 = WIN_UTF8ToString(filename_UTF8);
 	int result = _waccess(filename_UTF16, mode);
 	SDL_free(filename_UTF16);
@@ -135,33 +187,46 @@ struct directory_listing_type {
 	char* current_filename_UTF8;
 };
 
-directory_listing_type* create_directory_listing_and_find_first_file(const char* directory, const char* extension) {
-	directory_listing_type* directory_listing = (directory_listing_type*)calloc(1, sizeof(directory_listing_type));
+directory_listing_type* create_directory_listing_and_find_first_file
+(
+	const char* directory, const char* extension
+) 
+{
+	directory_listing_type* directory_listing = 
+		(directory_listing_type*)calloc(1, sizeof(directory_listing_type));
+
 	char search_pattern[POP_MAX_PATH];
 	snprintf_check(search_pattern, POP_MAX_PATH, "%s/*.%s", directory, extension);
 	WCHAR* search_pattern_UTF16 = WIN_UTF8ToString(search_pattern);
-	directory_listing->search_handle = FindFirstFileW( search_pattern_UTF16, &directory_listing->find_data );
+	directory_listing->search_handle = FindFirstFileW
+	    ( search_pattern_UTF16, &directory_listing->find_data );
 	SDL_free(search_pattern_UTF16);
-	if (directory_listing->search_handle != INVALID_HANDLE_VALUE) {
+	if (directory_listing->search_handle != INVALID_HANDLE_VALUE) 
+	{
 		return directory_listing;
-	} else {
+	} 
+	else 
+	{
 		free(directory_listing);
 		return NULL;
 	}
 }
 
-char* get_current_filename_from_directory_listing(directory_listing_type* data) {
+char* get_current_filename_from_directory_listing(directory_listing_type* data) 
+{
 	SDL_free(data->current_filename_UTF8);
 	data->current_filename_UTF8 = NULL;
 	data->current_filename_UTF8 = WIN_StringToUTF8(data->find_data.cFileName);
 	return data->current_filename_UTF8;
 }
 
-bool find_next_file(directory_listing_type* data) {
+bool find_next_file(directory_listing_type* data) 
+{
 	return (bool) FindNextFileW( data->search_handle, &data->find_data );
 }
 
-void close_directory_listing(directory_listing_type* data) {
+void close_directory_listing(directory_listing_type* data) 
+{
 	FindClose(data->search_handle);
 	SDL_free(data->current_filename_UTF8);
 	data->current_filename_UTF8 = NULL;
@@ -170,13 +235,16 @@ void close_directory_listing(directory_listing_type* data) {
 
 #else // use dirent.h API for listing files
 
-struct directory_listing_type {
+struct directory_listing_type 
+{
 	DIR* dp;
 	char* found_filename;
 	const char* extension;
 };
 
-directory_listing_type* create_directory_listing_and_find_first_file(const char* directory, const char* extension) {
+directory_listing_type* create_directory_listing_and_find_first_file
+(const char* directory, const char* extension) 
+{
 	directory_listing_type* data = calloc(1, sizeof(directory_listing_type));
 	bool ok = false;
 	data->dp = opendir(directory);
@@ -230,7 +298,8 @@ dat_type* dat_chain_ptr = NULL;
 char last_text_input;
 
 // seg009:000D
-int __pascal far read_key() {
+int __pascal far read_key() 
+{
 	// stub
 	int key = last_key_scancode;
 	last_key_scancode = 0;
@@ -238,14 +307,16 @@ int __pascal far read_key() {
 }
 
 // seg009:019A
-void __pascal far clear_kbd_buf() {
+void __pascal far clear_kbd_buf()
+{
 	// stub
 	last_key_scancode = 0;
 	last_text_input = 0;
 }
 
 // seg009:040A
-word __pascal far prandom(word max) {
+word __pascal far prandom(word max) 
+{
 	if (!seed_was_init) {
 		// init from current time
 		random_seed = time(NULL);
@@ -256,24 +327,28 @@ word __pascal far prandom(word max) {
 }
 
 // seg009:0467
-int __pascal far round_xpos_to_byte(int xpos,int round_direction) {
+int __pascal far round_xpos_to_byte(int xpos,int round_direction) 
+{
 	// stub
 	return xpos;
 }
 
 // seg009:0C7A
-void __pascal far quit(int exit_code) {
+void __pascal far quit(int exit_code) 
+{
 	restore_stuff();
 	exit(exit_code);
 }
 
 // seg009:0C90
-void __pascal far restore_stuff() {
+void __pascal far restore_stuff() 
+{
 	SDL_Quit();
 }
 
 // seg009:0E33
-int __pascal far key_test_quit() {
+int __pascal far key_test_quit() 
+{
 	word key;
 	key = read_key();
 	if (key == (SDL_SCANCODE_Q | WITH_CTRL)) { // Ctrl+Q
@@ -291,10 +366,12 @@ int __pascal far key_test_quit() {
 }
 
 // seg009:0E54
-const char* __pascal far check_param(const char *param) {
+const char* __pascal far check_param(const char *param) 
+{
 	// stub
 	short arg_index;
-	for (arg_index = 1; arg_index < g_argc; ++arg_index) {
+	for (arg_index = 1; arg_index < g_argc; ++arg_index) 
+	{
 
 		char* curr_arg = g_argv[arg_index];
 
@@ -339,20 +416,23 @@ int __pascal far pop_wait(int timer_index,int time) {
 	return do_wait(timer_index);
 }
 
-static FILE* open_dat_from_root_or_data_dir(const char* filename) {
+static FILE* open_dat_from_root_or_data_dir(const char* filename) 
+{
 	char data_path[POP_MAX_PATH];
 	FILE* fp = NULL;
 	struct stat path_stat;
 
 	//try get it from the localstate
-	if (!file_exists(data_path)) {
+	if (!file_exists(data_path)) 
+	{
 		find_exe_dir();
 		snprintf_check(data_path, sizeof(data_path), "%s/data/%s", exe_dir, filename);
 	}
 
 	// verify that this is a regular file and not a directory (otherwise, don't open)
 	stat(data_path, &path_stat);
-	if (S_ISREG(path_stat.st_mode)) {
+	if (S_ISREG(path_stat.st_mode)) 
+	{
 		fp = fopen(data_path, "rb");
 	}
 
@@ -369,9 +449,10 @@ static FILE* open_dat_from_root_or_data_dir(const char* filename) {
 		snprintf_check(data_path, sizeof(data_path), "data\\%s", filename);
 
 		//try get it from the localstate again just in case ya know
-        if (!file_exists(data_path)) {
+        if (!file_exists(data_path)) 
+		{
             //find_exe_dir();
-            snprintf_check(data_path, sizeof(data_path), "%s\\data\\%s", exe_dir, filename);
+            snprintf_check(data_path, sizeof(data_path), "%s\\data\\%s", exe_dir, filename);			
         }
 
 		// verify that this is a regular file and not a directory (otherwise, don't open)
@@ -389,20 +470,26 @@ int __pascal far showmessage(char far *text,int arg_4,void far *arg_0);
 dat_type *__pascal open_dat(const char *filename,int drive) 
 {
 	FILE* fp = NULL;
-	if (!use_custom_levelset) {
+	if (!use_custom_levelset) 
+	{
 		fp = open_dat_from_root_or_data_dir(filename);
 	}
-	else {
-		if (!skip_mod_data_files) {
+	else 
+	{
+		if (!skip_mod_data_files) 
+		{
 			char filename_mod[POP_MAX_PATH];
 			// before checking the root directory, first try mods/MODNAME/
 			snprintf_check(filename_mod, sizeof(filename_mod), "%s/%s", mod_data_path, filename);
 			fp = fopen(filename_mod, "rb");
 		}
-		if (fp == NULL && !skip_normal_data_files) {
+
+		if (fp == NULL && !skip_normal_data_files) 
+		{
 			fp = open_dat_from_root_or_data_dir(filename);
 		}
 	}
+
 	dat_header_type dat_header;
 	dat_table_type* dat_table = NULL;
 
@@ -411,7 +498,8 @@ dat_type *__pascal open_dat(const char *filename,int drive)
 	pointer->next_dat = dat_chain_ptr;
 	dat_chain_ptr = pointer;
 
-	if (fp != NULL) {
+	if (fp != NULL) 
+	{
 		if (fread(&dat_header, 6, 1, fp) != 1)
 			goto failed;
 		dat_table = (dat_table_type*) malloc(dat_header.table_size);
@@ -421,7 +509,9 @@ dat_type *__pascal open_dat(const char *filename,int drive)
 			goto failed;
 		pointer->handle = fp;
 		pointer->dat_table = dat_table;
-	} else {
+	} 
+	else 
+	{
 		/* // showmessage will crash if we call if before certain things are initialized!
 		// There is no DAT file, verify whether the corresponding directory exists.
 		char filename_no_ext[POP_MAX_PATH];
@@ -456,7 +546,9 @@ failed:
 	if (dat_table)
 		free(dat_table);
 	goto out;
-}
+
+}//open_dat
+
 
 // seg009:9CAC
 void __pascal far set_loaded_palette(dat_pal_type far *palette_ptr) {
@@ -2501,6 +2593,7 @@ void __pascal far set_gr_mode(byte grmode) {
 	window_ = SDL_CreateWindow(WINDOW_TITLE,
 	                           SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
 	                           pop_window_width, pop_window_height, flags);
+
 	// Make absolutely sure that VSync will be off, to prevent timer issues.
 	SDL_SetHint(SDL_HINT_RENDER_VSYNC, "0");
 #ifdef USE_HW_ACCELERATION
@@ -2562,13 +2655,18 @@ void __pascal far set_gr_mode(byte grmode) {
 #endif
 }
 
-SDL_Surface* get_final_surface() {
-	if (!is_overlay_displayed) {
+//
+SDL_Surface* get_final_surface() 
+{
+	if (!is_overlay_displayed) 
+	{
 		return onscreen_surface_;
-	} else {
+	} 
+	else 
+	{
 		return merged_surface;
 	}
-}
+}//get_final_surface
 
 void draw_overlay() {
 	int overlay = 0;
@@ -2591,7 +2689,8 @@ void draw_overlay() {
 		surface_type* saved_target_surface = current_target_surface;
 		current_target_surface = overlay_surface;
 		rect_type drawn_rect;
-		if (overlay == 1) {
+		if (overlay == 1) 
+		{
 #ifdef USE_DEBUG_CHEATS
 			char timer_text[32];
 			if (rem_min < 0) {
@@ -2612,7 +2711,8 @@ void draw_overlay() {
 
 #ifdef USE_REPLAY
 			// During playback, display the number of ticks since start, if the timer is shown (debug cheats: T).
-			if (replaying) {
+			if (replaying) 
+			{
 				char ticks_text[12];
 				snprintf(ticks_text, sizeof(ticks_text), "T: %d", curr_tick);
 				rect_type ticks_box_rect = timer_box_rect;
@@ -2631,7 +2731,9 @@ void draw_overlay() {
 
 			drawn_rect = timer_box_rect; // Only need to blit this bit to the merged_surface.
 #endif
-		} else if (overlay == 3) { // Feather timer
+		} 
+		else if (overlay == 3) 
+		{ // Feather timer
 #ifdef USE_DEBUG_CHEATS
 			char timer_text[32];
 			int ticks_per_sec = get_ticks_per_sec(timer_1);
@@ -2647,9 +2749,12 @@ void draw_overlay() {
 
 			drawn_rect = timer_box_rect; // Only need to blit this bit to the merged_surface.
 #endif
-		} else {
+		} 
+		else 
+		{
 			drawn_rect = screen_rect; // We'll blit the whole contents of overlay_surface to the merged_surface.
 		}
+
 		SDL_Rect sdl_rect;
 		rect_to_sdlrect(&drawn_rect, &sdl_rect);
 		SDL_BlitSurface(onscreen_surface_, NULL, merged_surface, NULL);
@@ -2658,11 +2763,15 @@ void draw_overlay() {
 	}
 }
 
-void update_screen() {
+void update_screen() 
+{
 	draw_overlay();
 	SDL_Surface* surface = get_final_surface();
+	
 	init_scaling();
-	if (scaling_type == 1) {
+
+	if (scaling_type == 1) 
+	{
 		// Make "fuzzy pixels" like DOSBox does:
 		// First scale to double size with nearest-neighbor scaling, then scale to full screen with smooth scaling.
 		// The result is not as blurry as if we did only a smooth scaling, but not as sharp as if we did only nearest-neighbor scaling.
@@ -2688,7 +2797,8 @@ void update_screen() {
 }
 
 // seg009:9289
-void __pascal far set_pal_arr(int start,int count,const rgb_type far *array,int vsync) {
+void __pascal far set_pal_arr(int start,int count,const rgb_type far *array,int vsync) 
+{
 	// stub
 	int i;
 	for (i = 0; i < count; ++i) {
@@ -2703,7 +2813,8 @@ void __pascal far set_pal_arr(int start,int count,const rgb_type far *array,int 
 rgb_type palette[256];
 
 // seg009:92DF
-void __pascal far set_pal(int index,int red,int green,int blue,int vsync) {
+void __pascal far set_pal(int index,int red,int green,int blue,int vsync) 
+{
 	// stub
 	//palette[index] = ((red&0x3F)<<2)|((green&0x3F)<<2<<8)|((blue&0x3F)<<2<<16);
 	palette[index].r = red;
@@ -2712,55 +2823,87 @@ void __pascal far set_pal(int index,int red,int green,int blue,int vsync) {
 }
 
 // seg009:969C
-int __pascal far add_palette_bits(byte n_colors) {
+int __pascal far add_palette_bits(byte n_colors) 
+{
 	// stub
 	return 0;
 }
 
 // seg009:9C36
-int __pascal far find_first_pal_row(int which_rows_mask) {
+int __pascal far find_first_pal_row(int which_rows_mask) 
+{
 	word which_row = 0;
 	word row_mask = 1;
-	do {
-		if (row_mask & which_rows_mask) {
+	do 
+	{
+		if (row_mask & which_rows_mask) 
+		{
 			return which_row;
 		}
 		++which_row;
 		row_mask <<= 1;
-	} while (which_row < 16);
+	} 
+	while (which_row < 16);
+	
 	return 0;
 }
 
 // seg009:9C6C
-int __pascal far get_text_color(int cga_color,int low_half,int high_half_mask) {
-	if (graphics_mode == gmCga || graphics_mode == gmHgaHerc) {
+int __pascal far get_text_color(int cga_color,int low_half,int high_half_mask) 
+{
+	if (graphics_mode == gmCga || graphics_mode == gmHgaHerc) 
+	{
 		return cga_color;
-	} else if (graphics_mode == gmMcgaVga && high_half_mask != 0) {
+	} 
+	else if (graphics_mode == gmMcgaVga && high_half_mask != 0) 
+	{
 		return (find_first_pal_row(high_half_mask) << 4) + low_half;
-	} else {
+	} 
+	else 
+	{
 		return low_half;
 	}
 }
 
-void load_from_opendats_metadata(int resource_id, const char* extension, FILE** out_fp, data_location* result, byte* checksum, int* size, dat_type** out_pointer) {
+void load_from_opendats_metadata
+(
+	int resource_id, 
+	const char* extension, 
+	FILE** out_fp, 
+	data_location* result, 
+	byte* checksum, 
+	int* size, 
+	dat_type** out_pointer
+) 
+{
 	char image_filename[POP_MAX_PATH];
 	FILE* fp = NULL;
 	dat_type* pointer;
 	*result = data_none;
 	// Go through all open DAT files.
-	for (pointer = dat_chain_ptr; fp == NULL && pointer != NULL; pointer = pointer->next_dat) {
+	for (pointer = dat_chain_ptr; 
+		fp == NULL && pointer != NULL; 
+		pointer = pointer->next_dat) 
+	{
 		*out_pointer = pointer;
-		if (pointer->handle != NULL) {
+
+		if (pointer->handle != NULL) 
+		{
 			// If it's an actual DAT file:
 			fp = pointer->handle;
 			dat_table_type* dat_table = pointer->dat_table;
+
 			int i;
-			for (i = 0; i < dat_table->res_count; ++i) {
-				if (dat_table->entries[i].id == resource_id) {
+			for (i = 0; i < dat_table->res_count; ++i) 
+			{
+				if (dat_table->entries[i].id == resource_id) 
+				{
 					break;
 				}
 			}
-			if (i < dat_table->res_count) {
+
+			if (i < dat_table->res_count) 
+			{
 				// found
 				*result = data_DAT;
 				*size = dat_table->entries[i].size;
@@ -2769,21 +2912,29 @@ void load_from_opendats_metadata(int resource_id, const char* extension, FILE** 
 					perror(pointer->filename);
 					fp = NULL;
 				}
-			} else {
+			} 
+			else 
+			{
 				// not found
 				fp = NULL;
 			}
-		} else {
+		} 
+		else 
+		{
 			// If it's a directory:
 			char filename_no_ext[POP_MAX_PATH];
 			// strip the .DAT file extension from the filename (use folders simply named TITLE, KID, VPALACE, etc.)
 			strncpy(filename_no_ext, pointer->filename, sizeof(filename_no_ext));
 			size_t len = strlen(filename_no_ext);
-			if (len >= 5 && filename_no_ext[len-4] == '.') {
+			if (len >= 5 && filename_no_ext[len-4] == '.') 
+			{
 				filename_no_ext[len-4] = '\0'; // terminate, so ".DAT" is deleted from the filename
 			}
+			
 			snprintf_check(image_filename,sizeof(image_filename),"data\\%s\\res%d.%s",filename_no_ext, resource_id, extension);
-			if (!use_custom_levelset) {
+			
+			if (!use_custom_levelset) 
+			{
 				//printf("loading (binary) %s",image_filename);
 				find_exe_dir();
 				char data_path[POP_MAX_PATH];

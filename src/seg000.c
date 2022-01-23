@@ -422,7 +422,8 @@ void restore_room_after_quick_load() {
 	exit_room_timer = 0;
 }
 
-int quick_load() {
+int quick_load() 
+{
 	int ok = 0;
 	char custom_quick_path[POP_MAX_PATH];
 	const char* path = get_quick_path(custom_quick_path, sizeof(custom_quick_path));
@@ -430,7 +431,8 @@ int quick_load() {
 	if (quick_fp != NULL) {
 		// check quicksave version is compatible
 		process_load(quick_control, COUNT(quick_control));
-		if (strcmp(quick_control, quick_version) != 0) {
+		if (strcmp(quick_control, quick_version) != 0) 
+		{
 			fclose(quick_fp);
 			quick_fp = NULL;
 			return 0;
@@ -476,7 +478,8 @@ int quick_load() {
 	return ok;
 }
 
-void check_quick_op() {
+void check_quick_op() 
+{
 	if (!enable_quicksave) return;
 	if (need_quick_save) {
 		if ((!is_feather_fall || fixes->fix_quicksave_during_feather) && quick_save()) {
@@ -533,16 +536,20 @@ int __pascal far process_key() {
 	}
 #endif
 
-	if (start_level < 0) {
-		if (key || control_shift) {
+	if (start_level < 0) 
+	{
+		if (key || control_shift) 
+		{
 			#ifdef USE_QUICKSAVE
 			if (key == SDL_SCANCODE_F9) need_quick_load = 1;
 			#endif
 			#ifdef USE_REPLAY
-			if (key == SDL_SCANCODE_TAB || need_start_replay) {
+			if (key == SDL_SCANCODE_TAB || need_start_replay) 
+			{
 				start_replay();
 			}
-			else if (key == (SDL_SCANCODE_TAB | WITH_CTRL)) {
+			else if (key == (SDL_SCANCODE_TAB | WITH_CTRL)) 
+			{
 				start_level = custom->first_level;
 				start_recording();
 			} else
@@ -578,12 +585,14 @@ int __pascal far process_key() {
 		case SDL_SCANCODE_ESCAPE | WITH_SHIFT: // allow pause while grabbing
 			is_paused = 1;
 #ifdef USE_MENU
-			if (enable_pause_menu && !is_cutscene && !is_ending_sequence) {
+			if (enable_pause_menu && !is_cutscene && !is_ending_sequence) 
+			{
 				is_menu_shown = 1;
 			}
 		break;
 		case SDL_SCANCODE_BACKSPACE:
-			if (!is_cutscene && !is_ending_sequence) {
+			if (!is_cutscene && !is_ending_sequence) 
+			{
 				is_paused = 1;
 				is_menu_shown = 1;
 			}
