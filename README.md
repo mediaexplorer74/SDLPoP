@@ -10,9 +10,10 @@ SDL2+SDL2_Image Port to W10M 15063 (Game "P.o.P." is not interested for me, it w
 ## Plan of your own RnD
 1. Download appx and install it at your winphone
 
-2. Dowload "data" zip folder and transfer it form PC to your phone
+2. Download "data" folder, unzip and transfer it form PC to your phone
 
-3. Unpack "data", and place at:
+3. Use some cool File Explorer (I used Storage Explorer for my parttially unlocked Lumia 950, 
+   because of this great tool sees whole filesystem!) and place /data at:
 
    C:\Data\Users\DefApps\APPDATA\Local\Packages\SDLPoP_cj4nrm0qt9s1y
 
@@ -24,7 +25,7 @@ SDL2+SDL2_Image Port to W10M 15063 (Game "P.o.P." is not interested for me, it w
 
 7. Try to control the prince... ;)
 
-I used Storage Explorer for my parttially unlocked Lumia 950. This tool sees whole filesystem :)
+
 
 AS IS. SDLPoP is SDL RnD only, not for gaming. 
 
