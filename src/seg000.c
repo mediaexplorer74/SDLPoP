@@ -1,22 +1,7 @@
-/*
-SDLPoP, a port/conversion of the DOS game Prince of Persia.
-Copyright (C) 2013-2020  Dávid Nagy
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-The authors of this program may be contacted at https://forum.princed.org
-*/
+//
+//SDLPoP, a port/conversion of the DOS game Prince of Persia.
+//Copyright (C) 2013-2020  Dávid Nagy
+//
 
 #include "common.h"
 #include <setjmp.h>
@@ -31,13 +16,16 @@ word need_redraw_because_flipped;
 void fix_sound_priorities();
 
 // seg000:0000
-void far pop_main() {
-	if (check_param("--version") || check_param("-v")) {
+void far pop_main() 
+{
+	if (check_param("--version") || check_param("-v")) 
+	{
 		printf ("SDLPoP v%s\n", SDLPOP_VERSION);
 		exit(0);
 	}
 
-	if (check_param("--help") || check_param("-h") || check_param("-?")) {
+	if (check_param("--help") || check_param("-h") || check_param("-?")) 
+	{
 		printf ("See doc/Readme.txt\n");
 		exit(0);
 	}
@@ -59,6 +47,7 @@ void far pop_main() {
 
 	load_global_options();
 	check_mod_param();
+
 #ifdef USE_MENU
 	load_ingame_settings();
 #endif
@@ -110,6 +99,7 @@ void far pop_main() {
 	debug_cheats_enabled = check_param("debug") != NULL;
 	if (debug_cheats_enabled) cheats_enabled = 1; // param 'megahit' not necessary if 'debug' is used
 #endif
+
 	draw_mode = check_param("draw") != NULL && cheats_enabled;
 	demo_mode = check_param("demo") != NULL;
 
@@ -168,6 +158,7 @@ void __pascal far init_game_main() {
 	// PRINCE.DAT: flame, sword on floor, potion
 	chtab_addrs[id_chtab_1_flameswordpotion] = load_sprites_from_file(150, 1<<3, 1);
 	close_dat(dathandle);
+
 #ifdef USE_LIGHTING
 	init_lighting();
 #endif
@@ -205,6 +196,7 @@ void __pascal far start_game() {
 	}
 	release_title_images(); // added
 	free_optsnd_chtab(); // added
+
 #ifdef USE_COPYPROT
 	copyprot_plac = prandom(13);
 	memset(&entry_used, 0, sizeof(entry_used));
@@ -240,17 +232,20 @@ void __pascal far start_game() {
 
 FILE* quick_fp;
 
-int process_save(void* data, size_t data_size) {
+int process_save(void* data, size_t data_size) 
+{
 	return fwrite(data, data_size, 1, quick_fp) == 1;
 }
 
-int process_load(void* data, size_t data_size) {
+int process_load(void* data, size_t data_size) 
+{
 	return fread(data, data_size, 1, quick_fp) == 1;
 }
 
 typedef int process_func_type(void* data, size_t data_size);
 
-int quick_process(process_func_type process_func) {
+int quick_process(process_func_type process_func) 
+{
 	int ok = 1;
 #define process(x) ok = ok && process_func(&(x), sizeof(x))
 	// level
@@ -407,8 +402,11 @@ void restore_room_after_quick_load() {
 	//redraw_screen(1); // for room_L
 
 	hitp_delta = guardhp_delta = 1; // force HP redraw
+	
 	// Don't draw guard HP if a previously viewed room (with the H,J,U,N keys) had a guard but the current room doesn't have one.
-	if (Guard.room != drawn_room) {
+	
+	if (Guard.room != drawn_room) 
+	{
 		// Like in clear_char().
 		Guard.direction = dir_56_none;
 		guardhp_curr = 0;

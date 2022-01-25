@@ -1,1 +1,1 @@
-C:\Users\media\source\repos\SDLPoP\AppPackages\SDLPoP\SDLPoP_1.0.3.0_Debug_Test\SDLPoP_1.0.3.0_arm_Debug.appxbundle
+C:\Users\media\source\repos\SDLPoP\AppPackages\SDLPoP\SDLPoP_1.0.7.0_Debug_Test\SDLPoP_1.0.7.0_arm_Debug.appxbundle
