@@ -50,17 +50,29 @@ Contributors: (Usernames refer to forum.princed.org or GitHub.)
 - Poirot (ecalot on GitHub) (Mac OS X: Now compatible with Falcury SDL2 port)
 - kees (bugfixes)
 - Falcury
-1 porting to SDL2
-1 quicksave improvements
-1 replay files
-1 SDLPoP.ini: added basic support and constantly adding new options
-1 mod folders
-1 fake tiles
-1 readable sequence table
-1 CMake support
-1 pause menu
-1 MIDI support
-1 and various other bugfixes, improvements, additions
+
+* porting to SDL2
+
+* quicksave improvements
+
+* replay files
+
+* SDLPoP.ini: added basic support and constantly adding new options
+
+* mod folders
+
+* fake tiles
+
+* readable sequence table
+
+* CMake support
+
+* pause menu
+
+* MIDI support
+
+* and various other bugfixes, improvements, additions
+
 - segra (segrax on GitHub) (Joystick support, resizable window)
 - DarkPrince (bug reports)
 - Andrey Vasilkin / digi@os2.snc.ru (eComStation (OS/2) support)
