@@ -1,0 +1,18 @@
+﻿  png.c
+  pngerror.c
+  pngget.c
+  pngmem.c
+  pngpread.c
+  pngread.c
+  pngrio.c
+  pngrtran.c
+  pngrutil.c
+  pngset.c
+  pngtest.c
+  pngtrans.c
+  pngwio.c
+  pngwrite.c
+  pngwtran.c
+  pngwutil.c
+  Создание кода...
+  libpng-UWP.vcxproj -> C:\Users\media\source\repos\SDLPoP\Output\libpng-UWP\x64\Debug\libpng-UWP\libpng.lib
