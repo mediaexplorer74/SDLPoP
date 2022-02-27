@@ -334,7 +334,7 @@ Since version 1.15, music is included.
 
 Since version 1.18, SDLPoP can play music from the MIDISND*.DAT files and OGG files are not included.
 
-MODS
+## MODS
 
 Can I play mods?
 
