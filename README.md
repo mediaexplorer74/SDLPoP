@@ -6,10 +6,10 @@ SDL2+SDL2_Image Port to W10M 15063 (Game "P.o.P." is not interested for me, it w
 An open-source port of Prince of Persia to Xbox One and Series consoles via UWP, based on the disassembly of the DOS version, extended with new features.
 
 ## Shots
-![W10 - PC](Images/shot0.png)
-![W10M - Lumia 1](Images/shot1.png)
-![W10M -Lumia 2](Images/shot2.png)
-![W10M -Lumia 3](Images/shot3.png)
+![W10 - PC](Images/shot1.png)
+![W10M - Lumia 1](Images/shot2.png)
+![W10M -Lumia 2](Images/shot3.png)
+![W10M -Lumia 3](Images/shot4.png)
 
 ## Plan of your own RnD
 1. Download appx and install it at your winphone
