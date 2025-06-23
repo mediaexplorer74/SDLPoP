@@ -7,8 +7,8 @@ SDL2+SDL2_Image Port to W10M 15063 (Game "P.o.P." is not interested for me, it w
 An open-source port of Prince of Persia to Xbox One and Series consoles via UWP, based on the disassembly of the DOS version, extended with new features.
 
 ## Screnshots
-![W10 - PC](Images/shot1.png)
-![W10M -Lumia 950](Images/shot4.png)
+![W10 - PC](Images/sshot01.png)
+![W10M -Lumia 950](Images/sshot02.png)
 
 # Status
 - Game runs but data\ files not properly added (injected) into SDLPoP.vcxproj \ SDLPoP.vcxproj.filters :(
