@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3ea0e873-c79d-427a-94a0-76cacc6cd110}</ProjectGuid>
+    <Keyword>DirectXApp</Keyword>
+    <RootNamespace>SDLPoP</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <ApplicationType>Windows Store</ApplicationType>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.15063.0</WindowsTargetPlatformMinVersion>
+    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VSINSTALLDIR)\Common7\IDE\Extensions\Microsoft\VsGraphics\ImageContentTask.props" />
+    <Import Project="$(VSINSTALLDIR)\Common7\IDE\Extensions\Microsoft\VsGraphics\MeshContentTask.props" />
+    <Import Project="$(VSINSTALLDIR)\Common7\IDE\Extensions\Microsoft\VsGraphics\ShaderGraphContentTask.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros">
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <PackageCertificateKeyFile>SDLPoP_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <GenerateTestArtifacts>True</GenerateTestArtifacts>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>arm</AppxBundlePlatforms>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+    <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Link>
+      <AdditionalDependencies>d2d1.lib; d3d11.lib; dxgi.lib; windowscodecs.lib; dwrite.lib; %(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)Externals\SDL2_image\lib;%(AdditionalLibraryDirectories); $(VCInstallDir)\lib\store\arm; $(VCInstallDir)\lib\arm</AdditionalLibraryDirectories>
+      <AdditionalOptions>/nodefaultlib:vccorlibd /nodefaultlib:msvcrtd vccorlibd.lib msvcrtd.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <ClCompile>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)Externals\SDL2\include;$(ProjectDir)Externals\SDL2_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <PostBuildEvent>
+      <!--Command>copy $(ProjectDir)externals\sdl2_image\lib\$(Platform_Actual)\*.dll $(LayoutDir)</Command-->
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Link>
+      <AdditionalDependencies>d2d1.lib; d3d11.lib; dxgi.lib; windowscodecs.lib; dwrite.lib; %(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)Externals\SDL2_image\lib;%(AdditionalLibraryDirectories); $(VCInstallDir)\lib\store\arm; $(VCInstallDir)\lib\arm</AdditionalLibraryDirectories>
+      <AdditionalOptions>/nodefaultlib:vccorlib /nodefaultlib:msvcrt vccorlib.lib msvcrt.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <ClCompile>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)Externals\SDL2\include;$(ProjectDir)Externals\SDL2_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <PostBuildEvent>
+      <!--Command>copy $(ProjectDir)externals\sdl2_image\lib\$(Platform_Actual)\*.dll $(LayoutDir)</Command-->
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <Link>
+      <AdditionalDependencies>d2d1.lib; d3d11.lib; dxgi.lib; windowscodecs.lib; dwrite.lib %(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)Externals\SDL2_image\lib;%(AdditionalLibraryDirectories); $(VCInstallDir)\lib\store\arm64; $(VCInstallDir)\lib\arm64</AdditionalLibraryDirectories>
+      <AdditionalOptions>/nodefaultlib:vccorlibd /nodefaultlib:msvcrtd vccorlibd.lib msvcrtd.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <ClCompile>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)Externals\SDL2\include;$(ProjectDir)Externals\SDL2_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <PostBuildEvent>
+      <!--Command>copy $(ProjectDir)externals\sdl2_image\lib\$(Platform_Actual)\*.dll $(LayoutDir)</Command-->
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <Link>
+      <AdditionalDependencies>d2d1.lib; d3d11.lib; dxgi.lib; windowscodecs.lib; dwrite.lib; %(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)Externals\SDL2_image\lib;%(AdditionalLibraryDirectories); $(VCInstallDir)\lib\store\arm64; $(VCInstallDir)\lib\arm64</AdditionalLibraryDirectories>
+      <AdditionalOptions>/nodefaultlib:vccorlib /nodefaultlib:msvcrt vccorlib.lib msvcrt.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <ClCompile>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)Externals\SDL2\include;$(ProjectDir)Externals\SDL2_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <PostBuildEvent>
+      <!--Command>copy $(ProjectDir)externals\sdl2_image\lib\$(Platform_Actual)\*.dll $(LayoutDir)</Command-->
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Link>
+      <AdditionalDependencies>d2d1.lib; d3d11.lib; dxgi.lib; windowscodecs.lib; dwrite.lib; %(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)Externals\SDL2_image\lib\x86;%(AdditionalLibraryDirectories); $(VCInstallDir)\lib\store; $(VCInstallDir)\lib</AdditionalLibraryDirectories>
+      <AdditionalOptions>/nodefaultlib:vccorlibd /nodefaultlib:msvcrtd vccorlibd.lib msvcrtd.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <ClCompile>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)Externals\SDL2\include;$(ProjectDir)Externals\SDL2_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <PostBuildEvent>
+      <!--Command>copy $(ProjectDir)externals\sdl2_image\lib\$(Platform_Actual)\*.dll $(LayoutDir)</Command-->
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Link>
+      <AdditionalDependencies>d2d1.lib; d3d11.lib; dxgi.lib; windowscodecs.lib; dwrite.lib; %(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)Externals\SDL2_image\lib\x86;%(AdditionalLibraryDirectories); $(VCInstallDir)\lib\store; $(VCInstallDir)\lib</AdditionalLibraryDirectories>
+      <AdditionalOptions>/nodefaultlib:vccorlib /nodefaultlib:msvcrt vccorlib.lib msvcrt.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <ClCompile>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)Externals\SDL2\include;$(ProjectDir)Externals\SDL2_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <PostBuildEvent>
+      <!--Command>copy $(ProjectDir)externals\sdl2_image\lib\$(Platform_Actual)\*.dll $(LayoutDir)</Command-->
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Link>
+      <AdditionalDependencies>d2d1.lib; d3d11.lib; dxgi.lib; windowscodecs.lib; dwrite.lib; %(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalOptions>/nodefaultlib:vccorlibd /nodefaultlib:msvcrtd vccorlibd.lib msvcrtd.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <ClCompile>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalIncludeDirectories>..\SDL2\include;..\SDL2_image\include;$(ProjectDir);$(IntermediateOutputPath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <PostBuildEvent>
+      <!--Command>copy $(ProjectDir)externals\sdl2_image\lib\$(Platform_Actual)\*.dll $(LayoutDir)\</Command-->
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Link>
+      <AdditionalDependencies>d2d1.lib; d3d11.lib; dxgi.lib; windowscodecs.lib; dwrite.lib; %(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)Externals\SDL2_image\lib\x64;%(AdditionalLibraryDirectories); $(VCInstallDir)\lib\store\amd64; $(VCInstallDir)\lib\amd64</AdditionalLibraryDirectories>
+      <AdditionalOptions>/nodefaultlib:vccorlib /nodefaultlib:msvcrt vccorlib.lib msvcrt.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <ClCompile>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)Externals\SDL2\include;$(ProjectDir)Externals\SDL2_image\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <PostBuildEvent>
+      <!--Command>copy $(ProjectDir)externals\sdl2_image\lib\$(Platform_Actual)\*.dll $(LayoutDir)\</Command-->
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Image Include="..\data\icon.png" />
+    <Image Include="..\data\light.png" />
+    <Image Include="Assets\LargeTile.scale-100.png" />
+    <Image Include="Assets\LargeTile.scale-125.png" />
+    <Image Include="Assets\LargeTile.scale-150.png" />
+    <Image Include="Assets\LargeTile.scale-200.png" />
+    <Image Include="Assets\LargeTile.scale-400.png" />
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-100.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-125.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-150.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-200.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-400.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-125.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-150.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-400.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-100.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-125.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-150.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-400.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-100.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-125.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-150.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-400.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-16.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-256.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-32.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-48.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-125.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-150.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-200.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-400.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-100.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-125.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-150.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-400.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\data.c" />
+    <ClCompile Include="..\src\lighting.c" />
+    <ClCompile Include="..\src\main.c" />
+    <ClCompile Include="..\src\menu.c" />
+    <ClCompile Include="..\src\midi.c" />
+    <ClCompile Include="..\src\opl3.c" />
+    <ClCompile Include="..\src\options.c" />
+    <ClCompile Include="..\src\replay.c" />
+    <ClCompile Include="..\src\screenshot.c" />
+    <ClCompile Include="..\src\seg000.c" />
+    <ClCompile Include="..\src\seg001.c" />
+    <ClCompile Include="..\src\seg002.c" />
+    <ClCompile Include="..\src\seg003.c" />
+    <ClCompile Include="..\src\seg004.c" />
+    <ClCompile Include="..\src\seg005.c" />
+    <ClCompile Include="..\src\seg006.c" />
+    <ClCompile Include="..\src\seg007.c" />
+    <ClCompile Include="..\src\seg008.c" />
+    <ClCompile Include="..\src\seg009.cpp">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\src\seqtbl.c" />
+    <ClCompile Include="..\src\stb_vorbis.c" />
+    <ClCompile Include="Externals\SDL2\src\main\winrt\SDL_winrt_main_NonXAML.cpp">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</CompileAsWinRT>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\common.h" />
+    <ClInclude Include="..\src\config.h" />
+    <ClInclude Include="..\src\data.h" />
+    <ClInclude Include="..\src\GPLv3.h" />
+    <ClInclude Include="..\src\opl3.h" />
+    <ClInclude Include="..\src\proto.h" />
+    <ClInclude Include="..\src\types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    
+            
+     <None Include="..\data\DIGISND1.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    
+     <None Include="..\data\DIGISND2.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    
+     <None Include="..\data\DIGISND3.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    
+    
+     <None Include="..\data\GUARD.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    
+     <None Include="..\data\GUARD1.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    
+     <None Include="..\data\GUARD2.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    
+    
+     <None Include="..\data\MIDISND1.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    
+     <None Include="..\data\MIDISND2.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    
+    
+    
+    <!-- Data\FAT\ -->
+     <None Include="..\data\FAT\res750.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>  
+    
+    
+    
+      
+    
+    <None Include="..\data\IBM_SND1\res10000.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10001.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10002.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10003.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10004.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10005.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10006.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10007.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10008.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10009.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10010.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10011.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10012.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10013.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10014.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10015.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10016.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10017.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10018.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10019.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10020.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10021.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10022.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10023.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10024.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10025.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10026.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10027.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10028.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10029.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10030.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10031.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10032.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10033.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10034.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10035.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10036.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10037.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10038.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10039.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10040.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10041.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10042.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND1\res10043.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND2\res10044.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND2\res10045.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND2\res10046.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND2\res10047.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND2\res10048.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND2\res10049.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND2\res10050.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND2\res10051.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND2\res10052.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND2\res10053.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND2\res10054.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND2\res10055.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\IBM_SND2\res10056.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2000.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2001.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2002.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2003.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2004.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2005.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2006.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2007.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2008.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2009.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2010.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2011.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2012.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2013.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2014.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\levels-original\res2015.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2000.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2001.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2002.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2003.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2004.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2005.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2006.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2007.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2008.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2009.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2010.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2011.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2012.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2013.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2014.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\LEVELS\res2015.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\PRINCE\res1.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\PRINCE\res10.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\SDLPoP.ini">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Externals\SDL2\src\main\winrt\SDL2-WinRTResource_BlankCursor.cur" />
+    <None Include="SDLPop_TemporaryKey.pfx" />
+    <!-- BEGIN AUTO-GENERATED RESOURCE LIST: All missing files from src/data recursively -->
+    <!-- AUTO-GENERATED START -->
+    <None Include="..\data\font\res1000.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1032.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1033.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1034.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1035.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1036.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1037.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1038.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1039.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1040.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1041.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1042.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1043.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1044.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1045.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1046.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1047.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1048.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1049.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1050.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1051.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1052.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1053.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1054.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1055.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1056.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1057.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1058.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1059.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1060.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1061.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1062.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1063.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1064.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1065.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1066.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1067.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1068.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1069.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1070.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1071.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1072.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1073.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1074.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1075.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1076.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1077.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1078.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1079.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1080.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1081.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1082.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1083.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1084.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1085.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1086.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1087.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1088.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1089.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1090.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1091.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1092.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1093.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1094.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1095.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1096.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1097.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1098.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1099.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1100.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1101.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1102.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1103.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1104.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1105.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1106.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1107.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1108.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1109.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1110.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1111.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1112.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1113.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1114.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1115.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1116.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1117.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1118.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1119.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1120.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1121.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1122.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1123.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1124.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1125.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1126.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1127.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1128.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1129.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1130.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="..\data\font\res1131.png">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <!-- AUTO-GENERATED END -->
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Externals\SDL2\src\main\winrt\SDL2-WinRTResources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SDL2\SDL-UWP.vcxproj">
+      <Project>{89e9b32e-a86a-47c3-a948-d2b1622925ce}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SDL2_image\SDL_image-UWP.vcxproj">
+      <Project>{29b4d11f-59f3-4ebc-a769-3babd140db9a}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VSINSTALLDIR)\Common7\IDE\Extensions\Microsoft\VsGraphics\ImageContentTask.targets" />
+    <Import Project="$(VSINSTALLDIR)\Common7\IDE\Extensions\Microsoft\VsGraphics\MeshContentTask.targets" />
+    <Import Project="$(VSINSTALLDIR)\Common7\IDE\Extensions\Microsoft\VsGraphics\ShaderGraphContentTask.targets" />
+  </ImportGroup>
+</Project>

@@ -1,33 +1,46 @@
-# SDLPop 1.0.8
+# SDLPop 1.0.9 - main branch
+![](Images/logo.png)
 
 SDL2+SDL2_Image Port to W10M 15063 (Game "P.o.P." is not interested for me, it was used only for RnD) 
 
 ## About UWP SDLPoP
 An open-source port of Prince of Persia to Xbox One and Series consoles via UWP, based on the disassembly of the DOS version, extended with new features.
 
-## Shots
+## Screnshots
 ![W10 - PC](Images/shot1.png)
-![W10M - Lumia 1](Images/shot2.png)
-![W10M -Lumia 2](Images/shot3.png)
-![W10M -Lumia 3](Images/shot4.png)
+![W10M -Lumia 950](Images/shot4.png)
 
-## Plan of your own RnD
-1. Download appx and install it at your winphone
+# Status
+- Game runs but data\ files not properly added (injected) into SDLPoP.vcxproj \ SDLPoP.vcxproj.filters :(
+- With help of "Trae" AI (hello, ByteDance!), mouse & touchpanel game input added :)
 
-2. Download "data" folder, unzip and transfer it form PC to your phone
+## TODO
+- Try to construct cleve prompt that allows Trae or WindSurf automattically fix proj files (I mean "add data files" dev-op). 
 
-3. Use some cool File Explorer (I used Storage Explorer for my parttially unlocked Lumia 950, 
-   because of this great tool sees whole filesystem!) and place /data at:
+## Plan of your own RnD / dev-ops 
+1. Fork this repo
 
-   C:\Data\Users\DefApps\APPDATA\Local\Packages\SDLPoP_cj4nrm0qt9s1y\LocalState\
+2. Run Visual Studio 2022
 
-4. Try to run the game.
+3. Try to run the game under Debugger. See error messge ".... PRINCE.DAT". 
 
-5. Explore the settings.
+4. Explore the solution: data\ folder (file structure), then SDLPoP.vcxproj & SDLPoP.vcxproj.filters.
 
-6. Inspect the quolity of graphics, sounds, game speed, etc...
+5. Find missing/broken "links" such as 
+```
+<None Include="..\data\IBM_SND1\res10000.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
 
-7. Try to control the prince... ;)
+```
+
+```
+  <None Include="..\data\IBM_SND1\res10000.bin" />
+```
+
+6. Fix the filters and that links (https://learn.microsoft.com/en-us/cpp/build/reference/vcxproj-filters-files?view=msvc-170)
+
+7. Try to start the Prince game again... ;)
 
 ## Useful links
 Forum board: https://forum.princed.org/viewforum.php?f=126
@@ -75,9 +88,11 @@ More tech. details you can find here:
 https://github.com/mediaexplorer74/SDLPoP/wiki
 
 
-
+## ..
 
 AS IS. SDLPoP is SDL RnD only, not for gaming. 
 
+## .
+-- [m][e] 2025
 
--- [m][e] 2022
+![](Images/footer.png)
