@@ -6,6 +6,8 @@
 #include "common.h"
 #include <setjmp.h>
 #include <math.h>
+//#include <thread>
+//#include <chrono>
 
 // data:461E
 dat_type * dathandle;
@@ -40,6 +42,11 @@ void far pop_main()
 	#ifdef CHECK_SEQTABLE_MATCHES_ORIGINAL
 	check_seqtable_matches_original();
 	#endif
+
+    // copy Assets\data\ to LocalStorage (if needed)
+    //EnsureDataFolderAndCopyAssets_UWP();
+
+	
 
 #ifdef FIX_SOUND_PRIORITIES
 	fix_sound_priorities();

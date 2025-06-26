@@ -29,46 +29,70 @@
     <Filter Include="include">
       <UniqueIdentifier>{56e6702c-f4be-417b-9287-20511e0065b7}</UniqueIdentifier>
     </Filter>
-    <!-- AUTO-GENERATED DATA FILTERS BEGIN -->
     <Filter Include="data">
-      <UniqueIdentifier>{B1A1B8F4-7B2E-4B7D-9B2D-000000000001}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="data\font">
-      <UniqueIdentifier>{B1A1B8F4-7B2E-4B7D-9B2D-000000000002}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="data\music">
-      <UniqueIdentifier>{B1A1B8F4-7B2E-4B7D-9B2D-000000000003}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="data\levels-original">
-      <UniqueIdentifier>{B1A1B8F4-7B2E-4B7D-9B2D-000000000004}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="data\levels-test">
-      <UniqueIdentifier>{B1A1B8F4-7B2E-4B7D-9B2D-000000000005}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="data\VDUNGEON">
-      <UniqueIdentifier>{B1A1B8F4-7B2E-4B7D-9B2D-000000000006}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="data\FAT">
-      <UniqueIdentifier>{B1A1B8F4-7B2E-4B7D-9B2D-000000000007}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="data\GUARD">
-      <UniqueIdentifier>{B1A1B8F4-7B2E-4B7D-9B2D-000000000008}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="data\GUARD1">
-      <UniqueIdentifier>{B1A1B8F4-7B2E-4B7D-9B2D-000000000009}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="data\IBM_SND1">
-      <UniqueIdentifier>{B1A1B8F4-7B2E-4B7D-9B2D-000000000010}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="data\IBM_SND2">
-      <UniqueIdentifier>{B1A1B8F4-7B2E-4B7D-9B2D-000000000011}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="data\LEVELS">
-      <UniqueIdentifier>{B1A1B8F4-7B2E-4B7D-9B2D-000000000012}</UniqueIdentifier>
+      <UniqueIdentifier>{841ad16f-48f4-4b2f-81ea-f2bea702fdde}</UniqueIdentifier>
     </Filter>
     <Filter Include="data\PRINCE">
-      <UniqueIdentifier>{B1A1B8F4-7B2E-4B7D-9B2D-000000000013}</UniqueIdentifier>
+      <UniqueIdentifier>{28ec58ec-6f3b-4f6c-aea9-ea9c95a2bcc6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="data\FAT">
+      <UniqueIdentifier>{ae4e3b8a-8350-4e5c-b282-2f201cec30eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\font">
+      <UniqueIdentifier>{62f422ef-d197-443b-844b-1c7bb2d752c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\GUARD">
+      <UniqueIdentifier>{3a0e7556-b718-4770-bd78-174c13328138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\GUARD2">
+      <UniqueIdentifier>{5a37eb8f-6e09-431d-8248-db6d13506eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\IBM_SND1">
+      <UniqueIdentifier>{2e07212b-d521-4c07-81ea-8b2efb19a82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\IBM_SND2">
+      <UniqueIdentifier>{90f6bbc0-04a9-4cb6-a048-7fd2c4687b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\KID">
+      <UniqueIdentifier>{e1ffc7e4-5e4d-47cc-9fcc-8f328211d06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\LEVELS">
+      <UniqueIdentifier>{23d26a72-fbcd-43d4-a8d4-61d001ab8f34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\levels-original">
+      <UniqueIdentifier>{97f64db6-515e-4398-bc54-2a7e22d6fa25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\levels-test">
+      <UniqueIdentifier>{bf2b537f-c568-412f-906f-53b7666d0c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\music">
+      <UniqueIdentifier>{d57851fc-2e55-473c-9c51-ad8c8192d3a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\PV">
+      <UniqueIdentifier>{27d9b7e4-332d-489a-a0f1-4a84ced65747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\SHADOW">
+      <UniqueIdentifier>{c8f7532a-80e9-4d6e-b9e0-20b57bbb4514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\SKEL">
+      <UniqueIdentifier>{b625f847-3386-4e09-bcd1-05d465d04556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\TITLE">
+      <UniqueIdentifier>{fa181eb1-9bd3-497b-ae7c-55db7ea5d14e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\VDUNGEON">
+      <UniqueIdentifier>{2961cbfa-8401-4ba3-8884-bc733c0e3cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\VIZIER">
+      <UniqueIdentifier>{e58ed7e9-9ae5-476b-923f-c515d75a049f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\VPALACE">
+      <UniqueIdentifier>{ad52f080-ca5d-4acd-953e-812ece9435ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\GUARD1">
+      <UniqueIdentifier>{2c1a85b6-2ed2-4ab7-a356-3a43401422f9}</UniqueIdentifier>
+    </Filter>
+    <!-- AUTO-GENERATED DATA FILTERS BEGIN -->
     <!-- AUTO-GENERATED DATA FILTERS END -->
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +163,9 @@
       <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="Externals\SDL2\src\main\winrt\SDL_winrt_main_NonXAML.cpp" />
+    <ClCompile Include="..\src\UWPDataCopy.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\common.h">
@@ -162,102 +189,404 @@
     <ClInclude Include="..\src\types.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="..\src\UWPDataCopy.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\SDLPoP.ini" />
     <None Include="SDLPop_TemporaryKey.pfx" />
     <None Include="Externals\SDL2\src\main\winrt\SDL2-WinRTResource_BlankCursor.cur" />
-    <None Include="..\data\IBM_SND1\res10000.bin" />
-    <None Include="..\data\IBM_SND1\res10001.bin" />
-    <None Include="..\data\IBM_SND1\res10002.bin" />
-    <None Include="..\data\IBM_SND1\res10003.bin" />
-    <None Include="..\data\IBM_SND1\res10004.bin" />
-    <None Include="..\data\IBM_SND1\res10005.bin" />
-    <None Include="..\data\IBM_SND1\res10006.bin" />
-    <None Include="..\data\IBM_SND1\res10007.bin" />
-    <None Include="..\data\IBM_SND1\res10008.bin" />
-    <None Include="..\data\IBM_SND1\res10009.bin" />
-    <None Include="..\data\IBM_SND1\res10010.bin" />
-    <None Include="..\data\IBM_SND1\res10011.bin" />
-    <None Include="..\data\IBM_SND1\res10012.bin" />
-    <None Include="..\data\IBM_SND1\res10013.bin" />
-    <None Include="..\data\IBM_SND1\res10014.bin" />
-    <None Include="..\data\IBM_SND1\res10015.bin" />
-    <None Include="..\data\IBM_SND1\res10016.bin" />
-    <None Include="..\data\IBM_SND1\res10017.bin" />
-    <None Include="..\data\IBM_SND1\res10018.bin" />
-    <None Include="..\data\IBM_SND1\res10019.bin" />
-    <None Include="..\data\IBM_SND1\res10020.bin" />
-    <None Include="..\data\IBM_SND1\res10021.bin" />
-    <None Include="..\data\IBM_SND1\res10022.bin" />
-    <None Include="..\data\IBM_SND1\res10023.bin" />
-    <None Include="..\data\IBM_SND1\res10024.bin" />
-    <None Include="..\data\IBM_SND1\res10025.bin" />
-    <None Include="..\data\IBM_SND1\res10026.bin" />
-    <None Include="..\data\IBM_SND1\res10027.bin" />
-    <None Include="..\data\IBM_SND1\res10028.bin" />
-    <None Include="..\data\IBM_SND1\res10029.bin" />
-    <None Include="..\data\IBM_SND1\res10030.bin" />
-    <None Include="..\data\IBM_SND1\res10031.bin" />
-    <None Include="..\data\IBM_SND1\res10032.bin" />
-    <None Include="..\data\IBM_SND1\res10033.bin" />
-    <None Include="..\data\IBM_SND1\res10034.bin" />
-    <None Include="..\data\IBM_SND1\res10035.bin" />
-    <None Include="..\data\IBM_SND1\res10036.bin" />
-    <None Include="..\data\IBM_SND1\res10037.bin" />
-    <None Include="..\data\IBM_SND1\res10038.bin" />
-    <None Include="..\data\IBM_SND1\res10039.bin" />
-    <None Include="..\data\IBM_SND1\res10040.bin" />
-    <None Include="..\data\IBM_SND1\res10041.bin" />
-    <None Include="..\data\IBM_SND1\res10042.bin" />
-    <None Include="..\data\IBM_SND1\res10043.bin" />
-    <None Include="..\data\IBM_SND2\res10044.bin" />
-    <None Include="..\data\IBM_SND2\res10045.bin" />
-    <None Include="..\data\IBM_SND2\res10046.bin" />
-    <None Include="..\data\IBM_SND2\res10047.bin" />
-    <None Include="..\data\IBM_SND2\res10048.bin" />
-    <None Include="..\data\IBM_SND2\res10049.bin" />
-    <None Include="..\data\IBM_SND2\res10050.bin" />
-    <None Include="..\data\IBM_SND2\res10051.bin" />
-    <None Include="..\data\IBM_SND2\res10052.bin" />
-    <None Include="..\data\IBM_SND2\res10053.bin" />
-    <None Include="..\data\IBM_SND2\res10054.bin" />
-    <None Include="..\data\IBM_SND2\res10055.bin" />
-    <None Include="..\data\IBM_SND2\res10056.bin" />
-    <None Include="..\data\LEVELS\res2000.bin" />
-    <None Include="..\data\LEVELS\res2001.bin" />
-    <None Include="..\data\LEVELS\res2002.bin" />
-    <None Include="..\data\LEVELS\res2003.bin" />
-    <None Include="..\data\LEVELS\res2004.bin" />
-    <None Include="..\data\LEVELS\res2005.bin" />
-    <None Include="..\data\LEVELS\res2006.bin" />
-    <None Include="..\data\LEVELS\res2007.bin" />
-    <None Include="..\data\LEVELS\res2008.bin" />
-    <None Include="..\data\LEVELS\res2009.bin" />
-    <None Include="..\data\LEVELS\res2010.bin" />
-    <None Include="..\data\LEVELS\res2011.bin" />
-    <None Include="..\data\LEVELS\res2012.bin" />
-    <None Include="..\data\LEVELS\res2013.bin" />
-    <None Include="..\data\LEVELS\res2014.bin" />
-    <None Include="..\data\LEVELS\res2015.bin" />
-    <None Include="..\data\levels-original\res2000.bin" />
-    <None Include="..\data\levels-original\res2001.bin" />
-    <None Include="..\data\levels-original\res2002.bin" />
-    <None Include="..\data\levels-original\res2003.bin" />
-    <None Include="..\data\levels-original\res2004.bin" />
-    <None Include="..\data\levels-original\res2005.bin" />
-    <None Include="..\data\levels-original\res2006.bin" />
-    <None Include="..\data\levels-original\res2007.bin" />
-    <None Include="..\data\levels-original\res2008.bin" />
-    <None Include="..\data\levels-original\res2009.bin" />
-    <None Include="..\data\levels-original\res2010.bin" />
-    <None Include="..\data\levels-original\res2011.bin" />
-    <None Include="..\data\levels-original\res2012.bin" />
-    <None Include="..\data\levels-original\res2013.bin" />
-    <None Include="..\data\levels-original\res2014.bin" />
-    <None Include="..\data\levels-original\res2015.bin" />
-    <None Include="..\data\PRINCE\res1.bin" />
-    <None Include="..\data\PRINCE\res10.bin" />
+    <None Include="data\DIGISND1.DAT">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\DIGISND2.DAT">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\DIGISND3.DAT">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\GUARD.DAT">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\GUARD1.DAT">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\GUARD2.DAT">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\MIDISND1.DAT">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\MIDISND2.DAT">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\PRINCE\res1.bin">
+      <Filter>data\PRINCE</Filter>
+    </None>
+    <None Include="data\PRINCE\res10.bin">
+      <Filter>data\PRINCE</Filter>
+    </None>
+    <None Include="data\PRINCE\res150.pal">
+      <Filter>data\PRINCE</Filter>
+    </None>
+    <None Include="data\PRINCE\res700.pal">
+      <Filter>data\PRINCE</Filter>
+    </None>
+    <None Include="data\FAT\res750.pal">
+      <Filter>data\FAT</Filter>
+    </None>
+    <None Include="data\font\res1000.pal">
+      <Filter>data\font</Filter>
+    </None>
+    <None Include="data\GUARD1\res750.pal">
+      <Filter>data\GUARD1</Filter>
+    </None>
+    <None Include="data\GUARD2\res750.pal">
+      <Filter>data\GUARD2</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10000.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10001.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10002.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10003.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10004.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10005.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10006.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10007.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10008.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10009.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10010.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10011.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10012.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10013.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10014.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10015.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10016.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10017.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10018.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10019.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10020.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10021.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10022.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10023.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10024.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10025.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10026.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10027.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10028.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10029.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10030.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10031.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10032.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10033.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10034.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10035.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10036.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10037.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10038.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10039.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10040.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10041.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10042.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND1\res10043.bin">
+      <Filter>data\IBM_SND1</Filter>
+    </None>
+    <None Include="data\IBM_SND2\res10044.bin">
+      <Filter>data\IBM_SND2</Filter>
+    </None>
+    <None Include="data\IBM_SND2\res10045.bin">
+      <Filter>data\IBM_SND2</Filter>
+    </None>
+    <None Include="data\IBM_SND2\res10046.bin">
+      <Filter>data\IBM_SND2</Filter>
+    </None>
+    <None Include="data\IBM_SND2\res10047.bin">
+      <Filter>data\IBM_SND2</Filter>
+    </None>
+    <None Include="data\IBM_SND2\res10048.bin">
+      <Filter>data\IBM_SND2</Filter>
+    </None>
+    <None Include="data\IBM_SND2\res10049.bin">
+      <Filter>data\IBM_SND2</Filter>
+    </None>
+    <None Include="data\IBM_SND2\res10050.bin">
+      <Filter>data\IBM_SND2</Filter>
+    </None>
+    <None Include="data\IBM_SND2\res10051.bin">
+      <Filter>data\IBM_SND2</Filter>
+    </None>
+    <None Include="data\IBM_SND2\res10052.bin">
+      <Filter>data\IBM_SND2</Filter>
+    </None>
+    <None Include="data\IBM_SND2\res10053.bin">
+      <Filter>data\IBM_SND2</Filter>
+    </None>
+    <None Include="data\IBM_SND2\res10054.bin">
+      <Filter>data\IBM_SND2</Filter>
+    </None>
+    <None Include="data\IBM_SND2\res10055.bin">
+      <Filter>data\IBM_SND2</Filter>
+    </None>
+    <None Include="data\IBM_SND2\res10056.bin">
+      <Filter>data\IBM_SND2</Filter>
+    </None>
+    <None Include="data\KID\res400.pal">
+      <Filter>data\KID</Filter>
+    </None>
+    <None Include="data\LEVELS\res2000.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2001.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2002.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2003.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2004.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2005.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2006.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2007.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2008.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2009.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2010.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2011.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2012.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2013.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2014.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\LEVELS\res2015.bin">
+      <Filter>data\LEVELS</Filter>
+    </None>
+    <None Include="data\levels-original\res2000.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2001.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2002.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2003.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2004.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2005.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2006.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2007.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2008.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2009.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2010.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2011.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2012.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2013.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2014.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-original\res2015.bin">
+      <Filter>data\levels-original</Filter>
+    </None>
+    <None Include="data\levels-test\01-micro-room-change">
+      <Filter>data\levels-test</Filter>
+    </None>
+    <None Include="data\levels-test\01-weird-room-change">
+      <Filter>data\levels-test</Filter>
+    </None>
+    <None Include="data\levels-test\02-bigpillar-climb">
+      <Filter>data\levels-test</Filter>
+    </None>
+    <None Include="data\levels-test\02-guard-following">
+      <Filter>data\levels-test</Filter>
+    </None>
+    <None Include="data\levels-test\02-random-broken">
+      <Filter>data\levels-test</Filter>
+    </None>
+    <None Include="data\levels-test\02-walls">
+      <Filter>data\levels-test</Filter>
+    </None>
+    <None Include="data\levels-test\04-through-tapestry">
+      <Filter>data\levels-test</Filter>
+    </None>
+    <None Include="data\levels-test\05-stacked-gates">
+      <Filter>data\levels-test</Filter>
+    </None>
+    <None Include="data\levels-test\07-jump">
+      <Filter>data\levels-test</Filter>
+    </None>
+    <None Include="data\levels-test\12-shadow">
+      <Filter>data\levels-test</Filter>
+    </None>
+    <None Include="data\PV\res800.pal">
+      <Filter>data\PV</Filter>
+    </None>
+    <None Include="data\PV\res850.pal">
+      <Filter>data\PV</Filter>
+    </None>
+    <None Include="data\PV\res900.pal">
+      <Filter>data\PV</Filter>
+    </None>
+    <None Include="data\PV\res950.pal">
+      <Filter>data\PV</Filter>
+    </None>
+    <None Include="data\PV\res980.pal">
+      <Filter>data\PV</Filter>
+    </None>
+    <None Include="data\SHADOW\res750.pal">
+      <Filter>data\SHADOW</Filter>
+    </None>
+    <None Include="data\SKEL\res750.pal">
+      <Filter>data\SKEL</Filter>
+    </None>
+    <None Include="data\TITLE\res40.pal">
+      <Filter>data\TITLE</Filter>
+    </None>
+    <None Include="data\TITLE\res50.pal">
+      <Filter>data\TITLE</Filter>
+    </None>
+    <None Include="data\VDUNGEON\res200.pal">
+      <Filter>data\VDUNGEON</Filter>
+    </None>
+    <None Include="data\VDUNGEON\res360.pal">
+      <Filter>data\VDUNGEON</Filter>
+    </None>
+    <None Include="data\VIZIER\res750.pal">
+      <Filter>data\VIZIER</Filter>
+    </None>
+    <None Include="data\VPALACE\res200.pal">
+      <Filter>data\VPALACE</Filter>
+    </None>
+    <None Include="data\VPALACE\res360.pal">
+      <Filter>data\VPALACE</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Externals\SDL2\src\main\winrt\SDL2-WinRTResources.rc" />
@@ -383,12 +712,6 @@
     <Image Include="Assets\StoreLogo.scale-400.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="..\data\icon.png">
-      <Filter>Assets</Filter>
-    </Image>
-    <Image Include="..\data\light.png">
-      <Filter>Assets</Filter>
-    </Image>
     <Image Include="Assets\LargeTile.scale-100.png">
       <Filter>Assets</Filter>
     </Image>
@@ -404,311 +727,2776 @@
     <Image Include="Assets\LargeTile.scale-400.png">
       <Filter>Assets</Filter>
     </Image>
+    <Image Include="data\icon.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="data\light.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res151.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res152.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res153.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res154.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res155.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res156.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res157.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res158.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res159.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res160.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res161.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res162.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res163.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res164.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res165.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res166.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res167.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res168.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res169.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res170.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res171.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res172.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res173.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res701.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res702.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res703.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res704.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res705.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res706.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res707.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res708.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res709.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res710.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res711.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res712.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res713.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res714.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res715.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res716.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res717.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res718.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res719.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res720.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res721.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res722.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res723.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res724.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res725.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res726.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res727.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res728.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res729.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res730.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res731.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res732.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res733.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\PRINCE\res734.png">
+      <Filter>data\PRINCE</Filter>
+    </Image>
+    <Image Include="data\FAT\res751.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res752.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res753.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res754.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res755.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res756.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res757.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res758.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res759.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res760.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res761.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res762.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res763.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res764.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res765.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res766.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res767.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res768.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res769.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res770.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res771.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res772.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res773.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res774.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res775.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res776.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res777.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res778.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res779.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res780.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res781.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res782.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res783.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\FAT\res784.png">
+      <Filter>data\FAT</Filter>
+    </Image>
+    <Image Include="data\font\res1032.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1033.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1034.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1035.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1036.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1037.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1038.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1039.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1040.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1041.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1042.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1043.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1044.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1045.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1046.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1047.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1048.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1049.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1050.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1051.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1052.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1053.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1054.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1055.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1056.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1057.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1058.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1059.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1060.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1061.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1062.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1063.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1064.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1065.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1066.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1067.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1068.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1069.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1070.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1071.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1072.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1073.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1074.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1075.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1076.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1077.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1078.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1079.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1080.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1081.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1082.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1083.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1084.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1085.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1086.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1087.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1088.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1089.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1090.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1091.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1092.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1093.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1094.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1095.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1096.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1097.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1098.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1099.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1100.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1101.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1102.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1103.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1104.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1105.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1106.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1107.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1108.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1109.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1110.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1111.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1112.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1113.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1114.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1115.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1116.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1117.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1118.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1119.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1120.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1121.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1122.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1123.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1124.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1125.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1126.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1127.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1128.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1129.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1130.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\font\res1131.png">
+      <Filter>data\font</Filter>
+    </Image>
+    <Image Include="data\GUARD\res751.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res752.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res753.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res754.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res755.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res756.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res757.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res758.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res759.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res760.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res761.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res762.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res763.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res764.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res765.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res766.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res767.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res768.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res769.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res770.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res771.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res772.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res773.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res774.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res775.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res776.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res777.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res778.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res779.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res780.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res781.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res782.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res783.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\GUARD\res784.png">
+      <Filter>data\GUARD</Filter>
+    </Image>
+    <Image Include="data\KID\res401.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res402.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res403.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res404.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res405.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res406.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res407.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res408.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res409.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res410.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res411.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res412.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res413.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res414.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res415.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res416.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res417.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res418.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res419.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res420.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res421.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res422.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res423.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res424.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res425.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res426.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res427.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res428.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res429.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res430.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res431.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res432.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res433.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res434.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res435.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res436.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res437.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res438.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res439.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res440.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res441.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res442.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res443.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res444.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res445.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res446.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res447.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res448.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res449.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res450.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res451.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res452.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res453.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res454.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res455.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res456.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res457.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res458.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res459.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res460.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res461.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res462.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res463.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res464.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res465.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res466.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res467.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res468.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res469.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res470.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res471.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res472.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res473.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res474.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res475.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res476.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res477.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res478.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res479.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res480.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res481.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res482.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res483.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res484.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res485.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res486.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res487.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res488.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res489.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res490.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res491.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res492.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res493.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res494.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res495.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res496.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res497.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res498.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res499.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res500.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res501.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res502.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res503.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res504.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res505.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res506.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res507.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res508.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res509.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res510.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res511.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res512.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res513.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res514.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res515.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res516.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res517.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res518.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res519.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res520.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res521.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res522.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res523.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res524.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res525.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res526.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res527.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res528.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res529.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res530.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res531.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res532.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res533.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res534.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res535.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res536.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res537.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res538.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res539.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res540.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res541.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res542.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res543.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res544.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res545.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res546.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res547.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res548.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res549.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res550.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res551.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res552.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res553.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res554.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res555.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res556.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res557.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res558.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res559.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res560.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res561.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res562.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res563.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res564.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res565.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res566.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res567.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res568.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res569.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res570.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res571.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res572.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res573.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res574.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res575.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res576.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res577.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res578.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res579.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res580.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res581.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res582.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res583.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res584.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res585.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res586.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res587.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res588.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res589.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res590.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res591.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res592.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res593.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res594.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res595.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res596.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res597.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res598.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res599.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res600.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res601.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res602.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res603.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res604.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res605.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res606.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res607.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res608.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res609.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res610.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res611.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res612.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res613.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res614.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res615.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res616.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res617.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res618.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\KID\res619.png">
+      <Filter>data\KID</Filter>
+    </Image>
+    <Image Include="data\PV\res801.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res802.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res803.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res804.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res805.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res806.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res807.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res808.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res809.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res810.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res811.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res812.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res813.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res814.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res815.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res816.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res817.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res851.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res852.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res853.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res854.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res855.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res856.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res857.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res858.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res859.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res860.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res861.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res862.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res863.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res864.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res865.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res866.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res867.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res868.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res869.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res870.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res871.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res872.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res873.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res874.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res875.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res876.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res877.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res878.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res879.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res880.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res881.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res882.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res883.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res884.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res885.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res886.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res887.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res888.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res901.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res902.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res903.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res904.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res905.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res906.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res907.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res908.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res909.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res910.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res911.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res912.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res913.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res914.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res915.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res916.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res917.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res918.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res919.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res920.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res921.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res922.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res923.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res924.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res925.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res926.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res927.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res928.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res929.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res930.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res951.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res952.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res953.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res954.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res955.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res956.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res957.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res958.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res959.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res960.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res961.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res962.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\PV\res981.png">
+      <Filter>data\PV</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res751.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res752.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res753.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res754.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res755.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res756.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res757.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res758.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res759.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res760.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res761.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res762.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res763.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res764.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res765.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res766.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res767.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res768.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res769.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res770.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res771.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res772.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res773.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res774.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res775.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res776.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res777.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res778.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res779.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res780.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res781.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SHADOW\res782.png">
+      <Filter>data\SHADOW</Filter>
+    </Image>
+    <Image Include="data\SKEL\res751.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res752.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res753.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res754.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res755.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res756.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res757.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res758.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res759.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res760.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res761.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res762.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res763.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res764.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res765.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res766.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res767.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res768.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res769.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res770.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res771.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res772.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res773.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res774.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res775.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res776.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res777.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\SKEL\res778.png">
+      <Filter>data\SKEL</Filter>
+    </Image>
+    <Image Include="data\TITLE\res41.png">
+      <Filter>data\TITLE</Filter>
+    </Image>
+    <Image Include="data\TITLE\res42.png">
+      <Filter>data\TITLE</Filter>
+    </Image>
+    <Image Include="data\TITLE\res43.png">
+      <Filter>data\TITLE</Filter>
+    </Image>
+    <Image Include="data\TITLE\res44.png">
+      <Filter>data\TITLE</Filter>
+    </Image>
+    <Image Include="data\TITLE\res45.png">
+      <Filter>data\TITLE</Filter>
+    </Image>
+    <Image Include="data\TITLE\res51.png">
+      <Filter>data\TITLE</Filter>
+    </Image>
+    <Image Include="data\TITLE\res52.png">
+      <Filter>data\TITLE</Filter>
+    </Image>
+    <Image Include="data\TITLE\res53.png">
+      <Filter>data\TITLE</Filter>
+    </Image>
+    <Image Include="data\TITLE\res54.png">
+      <Filter>data\TITLE</Filter>
+    </Image>
+    <Image Include="data\TITLE\res55.png">
+      <Filter>data\TITLE</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res230.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res231.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res232.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res233.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res234.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res235.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res236.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res237.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res238.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res239.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res240.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res241.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res242.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res243.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res244.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res245.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res246.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res247.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res248.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res249.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res250.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res251.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res252.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res253.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res254.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res255.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res256.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res257.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res258.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res259.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res260.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res261.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res262.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res263.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res264.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res265.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res266.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res267.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res268.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res269.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res270.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res271.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res272.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res273.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res274.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res285.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res286.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res287.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res288.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res289.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res290.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res291.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res292.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res293.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res294.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res295.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res296.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res297.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res298.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res299.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res300.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res301.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res302.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res303.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res304.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res305.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res306.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res307.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res308.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res309.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res310.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res311.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res312.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res313.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res314.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res315.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res316.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res317.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res318.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res319.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res320.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res321.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res322.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res323.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res324.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res325.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res326.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res327.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res328.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res329.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res330.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res331.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res332.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res333.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res334.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res335.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res336.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res337.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res338.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res339.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res340.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res341.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res342.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res343.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res344.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res346.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res347.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res348.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res349.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res350.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res351.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res361.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res362.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res363.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res364.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res365.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res366.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res367.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res368.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res369.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res370.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res371.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res372.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res373.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res374.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res375.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res376.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VDUNGEON\res377.png">
+      <Filter>data\VDUNGEON</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res751.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res752.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res753.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res754.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res755.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res756.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res757.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res758.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res759.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res760.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res761.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res762.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res763.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res764.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res765.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res766.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res767.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res768.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res769.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res770.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res771.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res772.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res773.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res774.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res775.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res776.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res777.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res778.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res779.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res780.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res781.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res782.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res783.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VIZIER\res784.png">
+      <Filter>data\VIZIER</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res201.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res202.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res203.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res204.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res205.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res206.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res209.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res210.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res211.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res212.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res213.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res232.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res233.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res234.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res235.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res236.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res237.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res238.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res239.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res240.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res241.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res242.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res243.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res244.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res245.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res246.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res247.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res248.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res249.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res250.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res251.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res252.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res253.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res254.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res255.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res256.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res257.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res258.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res259.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res260.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res261.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res262.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res263.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res264.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res265.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res266.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res267.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res268.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res269.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res270.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res271.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res272.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res273.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res274.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res275.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res277.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res278.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res280.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res281.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res282.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res283.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res284.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res285.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res286.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res287.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res288.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res289.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res290.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res291.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res292.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res293.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res294.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res295.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res296.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res297.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res298.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res299.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res300.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res301.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res302.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res303.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res304.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res305.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res306.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res307.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res308.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res309.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res310.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res311.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res312.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res313.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res314.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res315.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res316.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res317.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res318.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res319.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res320.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res321.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res322.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res323.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res324.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res325.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res326.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res327.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res328.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res329.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res330.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res331.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res332.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res333.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res334.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res335.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res336.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res337.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res338.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res339.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res340.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res341.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res342.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res343.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res344.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res345.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res346.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res347.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res349.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res350.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res351.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res361.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res362.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res363.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res364.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res365.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res366.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res367.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res368.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res369.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res370.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res371.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res372.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res373.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res374.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res375.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res376.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
+    <Image Include="data\VPALACE\res377.png">
+      <Filter>data\VPALACE</Filter>
+    </Image>
     <!-- BEGIN AUTO-GENERATED FILTERS LIST: All missing files from src/data recursively -->
     <!-- AUTO-GENERATED START -->
-    <None Include="..\data\font\res1000.pal">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1032.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1033.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1034.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1035.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1036.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1037.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1038.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1039.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1040.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1041.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1042.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1043.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1044.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1045.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1046.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1047.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1048.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1049.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1050.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1051.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1052.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1053.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1054.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1055.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1056.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1057.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1058.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1059.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1060.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1061.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1062.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1063.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1064.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1065.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1066.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1067.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1068.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1069.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1070.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1071.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1072.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1073.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1074.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1075.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1076.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1077.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1078.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1079.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1080.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1081.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1082.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1083.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1084.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1085.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1086.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1087.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1088.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1089.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1090.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1091.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1092.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1093.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1094.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1095.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1096.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1097.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1098.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1099.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1100.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1101.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1102.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1103.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1104.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1105.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1106.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1107.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1108.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1109.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1110.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1111.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1112.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1113.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1114.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1115.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1116.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1117.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1118.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1119.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1120.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1121.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1122.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1123.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1124.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1125.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1126.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1127.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1128.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1129.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1130.png">
-      <Filter>data\font</Filter>
-    </None>
-    <None Include="..\data\font\res1131.png">
-      <Filter>data\font</Filter>
-    </None>
     <!-- AUTO-GENERATED END -->
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\music\names.txt">
+      <Filter>data\music</Filter>
+    </Text>
   </ItemGroup>
 </Project>

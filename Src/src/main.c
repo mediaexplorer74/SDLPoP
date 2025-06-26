@@ -4,14 +4,18 @@
 
 
 #include "common.h"
+#include "UWPDataCopy.h"
 
 int main(int argc, char *argv[])
 {
+    
 	SDL_SetHint(SDL_HINT_WINRT_HANDLE_BACK_BUTTON, "1");
 
 	g_argc = argc;
 	g_argv = argv;
 
+
+	//EnsureDataFolderAndCopyAssets_UWP();
 	pop_main(); // -> seg000.c
 	
 	return 0;

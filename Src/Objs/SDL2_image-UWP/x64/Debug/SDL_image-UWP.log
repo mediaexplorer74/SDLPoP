@@ -6,7 +6,6 @@
   IMG_pcx.c
   IMG_png.c
   IMG_pnm.c
-  IMG_tga.c
 C:\Users\Admin\source\repos\!GameDev\SDLPoP\Src\SDL2_image\IMG_png.c(276,26): warning C4113: 'png_uint_32 (__cdecl *)(png_const_structrp,png_inforp,png_colorp *,int *)' differs in parameter lists from 'png_uint_32 (__cdecl *)(png_const_structrp,png_infop,png_colorp *,int *)'
 C:\Users\Admin\source\repos\!GameDev\SDLPoP\Src\SDL2_image\IMG_png.c(277,26): warning C4113: 'png_uint_32 (__cdecl *)(png_const_structrp,png_inforp,png_bytep *,int *,png_color_16p *)' differs in parameter lists from 'png_uint_32 (__cdecl *)(png_const_structrp,png_infop,png_bytep *,int *,png_color_16p *)'
 C:\Users\Admin\source\repos\!GameDev\SDLPoP\Src\SDL2_image\IMG_png.c(279,28): warning C4113: 'void (__cdecl *)(png_structrp,png_bytepp)' differs in parameter lists from 'void (__cdecl *)(png_structp,png_bytepp)'
@@ -14,6 +13,7 @@ C:\Users\Admin\source\repos\!GameDev\SDLPoP\Src\SDL2_image\IMG_png.c(280,27): wa
 C:\Users\Admin\source\repos\!GameDev\SDLPoP\Src\SDL2_image\IMG_png.c(281,34): warning C4113: 'void (__cdecl *)(png_structrp,png_inforp)' differs in parameter lists from 'void (__cdecl *)(png_structp,png_infop)'
 C:\Users\Admin\source\repos\!GameDev\SDLPoP\Src\SDL2_image\IMG_png.c(282,28): warning C4113: 'void (__cdecl *)(png_structrp)' differs in parameter lists from 'void (__cdecl *)(png_structp)'
 C:\Users\Admin\source\repos\!GameDev\SDLPoP\Src\SDL2_image\IMG_png.c(283,33): warning C4113: 'void (__cdecl *)(png_structrp)' differs in parameter lists from 'void (__cdecl *)(png_structp)'
+  IMG_tga.c
 C:\Users\Admin\source\repos\!GameDev\SDLPoP\Src\SDL2_image\IMG_png.c(284,29): warning C4113: 'void (__cdecl *)(png_structrp)' differs in parameter lists from 'void (__cdecl *)(png_structp)'
 C:\Users\Admin\source\repos\!GameDev\SDLPoP\Src\SDL2_image\IMG_png.c(285,29): warning C4113: 'void (__cdecl *)(png_structrp,png_voidp,png_rw_ptr)' differs in parameter lists from 'void (__cdecl *)(png_structp,png_voidp,png_rw_ptr)'
 C:\Users\Admin\source\repos\!GameDev\SDLPoP\Src\SDL2_image\IMG_png.c(286,30): warning C4113: 'void (__cdecl *)(png_structrp)' differs in parameter lists from 'void (__cdecl *)(png_structp)'

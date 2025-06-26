@@ -9,7 +9,7 @@
   <Identity
     Name="SDLPoP"
     Publisher="CN=Admin"
-    Version="1.0.9.0" />
+    Version="1.0.10.0" />
 
   <mp:PhoneIdentity PhoneProductId="a4d2e393-3689-46e4-8fa0-0671f8c1dc61" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

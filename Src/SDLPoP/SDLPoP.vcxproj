@@ -131,7 +131,7 @@
     <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
     <PackageCertificateKeyFile>SDLPoP_TemporaryKey.pfx</PackageCertificateKeyFile>
     <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
-    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
     <GenerateTestArtifacts>True</GenerateTestArtifacts>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>arm</AppxBundlePlatforms>
@@ -300,8 +300,2637 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Image Include="..\data\icon.png" />
-    <Image Include="..\data\light.png" />
+    <Image Include="data\FAT\res751.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res752.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res753.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res754.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res755.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res756.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res757.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res758.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res759.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res760.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res761.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res762.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res763.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res764.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res765.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res766.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res767.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res768.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res769.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res770.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res771.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res772.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res773.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res774.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res775.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res776.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res777.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res778.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res779.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res780.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res781.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res782.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res783.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\FAT\res784.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1032.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1033.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1034.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1035.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1036.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1037.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1038.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1039.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1040.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1041.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1042.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1043.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1044.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1045.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1046.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1047.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1048.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1049.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1050.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1051.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1052.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1053.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1054.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1055.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1056.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1057.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1058.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1059.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1060.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1061.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1062.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1063.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1064.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1065.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1066.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1067.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1068.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1069.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1070.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1071.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1072.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1073.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1074.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1075.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1076.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1077.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1078.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1079.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1080.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1081.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1082.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1083.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1084.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1085.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1086.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1087.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1088.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1089.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1090.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1091.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1092.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1093.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1094.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1095.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1096.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1097.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1098.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1099.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1100.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1101.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1102.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1103.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1104.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1105.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1106.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1107.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1108.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1109.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1110.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1111.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1112.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1113.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1114.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1115.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1116.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1117.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1118.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1119.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1120.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1121.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1122.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1123.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1124.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1125.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1126.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1127.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1128.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1129.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1130.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\font\res1131.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\GUARD\res751.png" />
+    <Image Include="data\GUARD\res752.png" />
+    <Image Include="data\GUARD\res753.png" />
+    <Image Include="data\GUARD\res754.png" />
+    <Image Include="data\GUARD\res755.png" />
+    <Image Include="data\GUARD\res756.png" />
+    <Image Include="data\GUARD\res757.png" />
+    <Image Include="data\GUARD\res758.png" />
+    <Image Include="data\GUARD\res759.png" />
+    <Image Include="data\GUARD\res760.png" />
+    <Image Include="data\GUARD\res761.png" />
+    <Image Include="data\GUARD\res762.png" />
+    <Image Include="data\GUARD\res763.png" />
+    <Image Include="data\GUARD\res764.png" />
+    <Image Include="data\GUARD\res765.png" />
+    <Image Include="data\GUARD\res766.png" />
+    <Image Include="data\GUARD\res767.png" />
+    <Image Include="data\GUARD\res768.png" />
+    <Image Include="data\GUARD\res769.png" />
+    <Image Include="data\GUARD\res770.png" />
+    <Image Include="data\GUARD\res771.png" />
+    <Image Include="data\GUARD\res772.png" />
+    <Image Include="data\GUARD\res773.png" />
+    <Image Include="data\GUARD\res774.png" />
+    <Image Include="data\GUARD\res775.png" />
+    <Image Include="data\GUARD\res776.png" />
+    <Image Include="data\GUARD\res777.png" />
+    <Image Include="data\GUARD\res778.png" />
+    <Image Include="data\GUARD\res779.png" />
+    <Image Include="data\GUARD\res780.png" />
+    <Image Include="data\GUARD\res781.png" />
+    <Image Include="data\GUARD\res782.png" />
+    <Image Include="data\GUARD\res783.png" />
+    <Image Include="data\GUARD\res784.png" />
+    <Image Include="data\icon.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res401.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res402.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res403.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res404.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res405.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res406.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res407.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res408.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res409.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res410.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res411.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res412.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res413.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res414.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res415.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res416.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res417.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res418.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res419.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res420.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res421.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res422.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res423.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res424.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res425.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res426.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res427.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res428.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res429.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res430.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res431.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res432.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res433.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res434.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res435.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res436.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res437.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res438.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res439.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res440.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res441.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res442.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res443.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res444.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res445.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res446.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res447.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res448.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res449.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res450.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res451.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res452.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res453.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res454.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res455.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res456.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res457.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res458.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res459.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res460.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res461.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res462.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res463.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res464.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res465.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res466.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res467.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res468.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res469.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res470.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res471.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res472.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res473.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res474.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res475.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res476.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res477.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res478.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res479.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res480.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res481.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res482.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res483.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res484.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res485.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res486.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res487.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res488.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res489.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res490.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res491.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res492.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res493.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res494.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res495.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res496.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res497.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res498.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res499.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res500.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res501.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res502.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res503.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res504.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res505.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res506.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res507.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res508.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res509.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res510.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res511.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res512.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res513.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res514.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res515.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res516.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res517.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res518.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res519.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res520.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res521.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res522.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res523.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res524.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res525.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res526.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res527.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res528.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res529.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res530.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res531.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res532.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res533.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res534.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res535.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res536.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res537.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res538.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res539.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res540.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res541.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res542.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res543.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res544.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res545.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res546.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res547.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res548.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res549.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res550.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res551.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res552.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res553.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res554.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res555.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res556.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res557.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res558.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res559.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res560.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res561.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res562.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res563.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res564.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res565.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res566.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res567.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res568.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res569.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res570.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res571.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res572.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res573.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res574.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res575.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res576.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res577.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res578.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res579.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res580.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res581.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res582.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res583.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res584.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res585.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res586.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res587.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res588.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res589.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res590.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res591.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res592.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res593.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res594.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res595.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res596.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res597.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res598.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res599.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res600.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res601.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res602.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res603.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res604.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res605.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res606.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res607.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res608.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res609.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res610.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res611.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res612.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res613.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res614.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res615.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res616.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res617.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res618.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\KID\res619.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\light.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res151.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res152.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res153.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res154.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res155.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res156.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res157.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res158.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res159.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res160.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res161.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res162.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res163.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res164.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res165.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res166.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res167.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res168.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res169.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res170.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res171.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res172.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res173.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res701.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res702.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res703.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res704.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res705.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res706.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res707.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res708.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res709.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res710.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res711.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res712.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res713.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res714.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res715.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res716.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res717.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res718.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res719.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res720.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res721.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res722.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res723.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res724.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res725.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res726.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res727.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res728.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res729.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res730.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res731.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res732.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res733.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PRINCE\res734.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res801.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res802.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res803.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res804.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res805.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res806.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res807.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res808.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res809.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res810.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res811.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res812.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res813.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res814.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res815.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res816.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res817.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res851.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res852.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res853.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res854.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res855.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res856.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res857.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res858.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res859.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res860.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res861.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res862.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res863.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res864.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res865.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res866.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res867.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res868.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res869.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res870.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res871.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res872.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res873.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res874.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res875.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res876.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res877.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res878.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res879.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res880.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res881.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res882.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res883.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res884.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res885.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res886.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res887.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res888.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res901.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res902.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res903.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res904.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res905.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res906.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res907.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res908.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res909.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res910.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res911.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res912.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res913.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res914.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res915.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res916.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res917.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res918.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res919.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res920.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res921.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res922.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res923.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res924.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res925.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res926.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res927.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res928.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res929.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res930.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res951.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res952.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res953.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res954.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res955.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res956.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res957.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res958.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res959.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res960.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res961.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res962.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\PV\res981.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SHADOW\res751.png" />
+    <Image Include="data\SHADOW\res752.png" />
+    <Image Include="data\SHADOW\res753.png" />
+    <Image Include="data\SHADOW\res754.png" />
+    <Image Include="data\SHADOW\res755.png" />
+    <Image Include="data\SHADOW\res756.png" />
+    <Image Include="data\SHADOW\res757.png" />
+    <Image Include="data\SHADOW\res758.png" />
+    <Image Include="data\SHADOW\res759.png" />
+    <Image Include="data\SHADOW\res760.png" />
+    <Image Include="data\SHADOW\res761.png" />
+    <Image Include="data\SHADOW\res762.png" />
+    <Image Include="data\SHADOW\res763.png" />
+    <Image Include="data\SHADOW\res764.png" />
+    <Image Include="data\SHADOW\res765.png" />
+    <Image Include="data\SHADOW\res766.png" />
+    <Image Include="data\SHADOW\res767.png" />
+    <Image Include="data\SHADOW\res768.png" />
+    <Image Include="data\SHADOW\res769.png" />
+    <Image Include="data\SHADOW\res770.png" />
+    <Image Include="data\SHADOW\res771.png" />
+    <Image Include="data\SHADOW\res772.png" />
+    <Image Include="data\SHADOW\res773.png" />
+    <Image Include="data\SHADOW\res774.png" />
+    <Image Include="data\SHADOW\res775.png" />
+    <Image Include="data\SHADOW\res776.png" />
+    <Image Include="data\SHADOW\res777.png" />
+    <Image Include="data\SHADOW\res778.png" />
+    <Image Include="data\SHADOW\res779.png" />
+    <Image Include="data\SHADOW\res780.png" />
+    <Image Include="data\SHADOW\res781.png" />
+    <Image Include="data\SHADOW\res782.png" />
+    <Image Include="data\SKEL\res751.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res752.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res753.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res754.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res755.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res756.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res757.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res758.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res759.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res760.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res761.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res762.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res763.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res764.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res765.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res766.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res767.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res768.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res769.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res770.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res771.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res772.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res773.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res774.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res775.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res776.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res777.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\SKEL\res778.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\TITLE\res41.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\TITLE\res42.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\TITLE\res43.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\TITLE\res44.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\TITLE\res45.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\TITLE\res51.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\TITLE\res52.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\TITLE\res53.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\TITLE\res54.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\TITLE\res55.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res230.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res231.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res232.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res233.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res234.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res235.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res236.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res237.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res238.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res239.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res240.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res241.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res242.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res243.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res244.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res245.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res246.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res247.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res248.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res249.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res250.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res251.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res252.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res253.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res254.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res255.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res256.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res257.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res258.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res259.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res260.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res261.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res262.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res263.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res264.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res265.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res266.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res267.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res268.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res269.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res270.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res271.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res272.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res273.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res274.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res285.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res286.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res287.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res288.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res289.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res290.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res291.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res292.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res293.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res294.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res295.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res296.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res297.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res298.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res299.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res300.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res301.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res302.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res303.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res304.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res305.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res306.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res307.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res308.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res309.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res310.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res311.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res312.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res313.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res314.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res315.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res316.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res317.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res318.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res319.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res320.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res321.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res322.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res323.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res324.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res325.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res326.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res327.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res328.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res329.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res330.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res331.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res332.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res333.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res334.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res335.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res336.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res337.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res338.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res339.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res340.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res341.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res342.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res343.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res344.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res346.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res347.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res348.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res349.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res350.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res351.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res361.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res362.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res363.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res364.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res365.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res366.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res367.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res368.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res369.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res370.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res371.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res372.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res373.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res374.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res375.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res376.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VDUNGEON\res377.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res751.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res752.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res753.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res754.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res755.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res756.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res757.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res758.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res759.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res760.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res761.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res762.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res763.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res764.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res765.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res766.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res767.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res768.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res769.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res770.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res771.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res772.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res773.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res774.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res775.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res776.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res777.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res778.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res779.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res780.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res781.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res782.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res783.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VIZIER\res784.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res201.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res202.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res203.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res204.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res205.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res206.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res209.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res210.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res211.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res212.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res213.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res232.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res233.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res234.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res235.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res236.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res237.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res238.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res239.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res240.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res241.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res242.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res243.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res244.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res245.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res246.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res247.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res248.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res249.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res250.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res251.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res252.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res253.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res254.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res255.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res256.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res257.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res258.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res259.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res260.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res261.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res262.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res263.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res264.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res265.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res266.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res267.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res268.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res269.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res270.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res271.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res272.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res273.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res274.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res275.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res277.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res278.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res280.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res281.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res282.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res283.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res284.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res285.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res286.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res287.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res288.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res289.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res290.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res291.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res292.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res293.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res294.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res295.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res296.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res297.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res298.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res299.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res300.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res301.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res302.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res303.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res304.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res305.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res306.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res307.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res308.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res309.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res310.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res311.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res312.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res313.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res314.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res315.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res316.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res317.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res318.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res319.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res320.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res321.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res322.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res323.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res324.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res325.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res326.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res327.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res328.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res329.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res330.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res331.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res332.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res333.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res334.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res335.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res336.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res337.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res338.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res339.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res340.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res341.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res342.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res343.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res344.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res345.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res346.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res347.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res349.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res350.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res351.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res361.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res362.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res363.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res364.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res365.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res366.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res367.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res368.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res369.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res370.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res371.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res372.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res373.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res374.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res375.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res376.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="data\VPALACE\res377.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
     <Image Include="Assets\LargeTile.scale-100.png" />
     <Image Include="Assets\LargeTile.scale-125.png" />
     <Image Include="Assets\LargeTile.scale-150.png" />
@@ -461,6 +3090,8 @@
     <ClCompile Include="..\src\options.c" />
     <ClCompile Include="..\src\replay.c" />
     <ClCompile Include="..\src\screenshot.c" />
+    <ClCompile Include="..\src\seqtbl.c" />
+    <ClCompile Include="..\src\stb_vorbis.c" />
     <ClCompile Include="..\src\seg000.c" />
     <ClCompile Include="..\src\seg001.c" />
     <ClCompile Include="..\src\seg002.c" />
@@ -471,26 +3102,13 @@
     <ClCompile Include="..\src\seg007.c" />
     <ClCompile Include="..\src\seg008.c" />
     <ClCompile Include="..\src\seg009.cpp">
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsWinRT>
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</CompileAsWinRT>
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</CompileAsWinRT>
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</CompileAsWinRT>
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</CompileAsWinRT>
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</CompileAsWinRT>
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</CompileAsWinRT>
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</CompileAsWinRT>
+      <CompileAsWinRT>true</CompileAsWinRT>
     </ClCompile>
-    <ClCompile Include="..\src\seqtbl.c" />
-    <ClCompile Include="..\src\stb_vorbis.c" />
     <ClCompile Include="Externals\SDL2\src\main\winrt\SDL_winrt_main_NonXAML.cpp">
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsWinRT>
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</CompileAsWinRT>
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</CompileAsWinRT>
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</CompileAsWinRT>
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</CompileAsWinRT>
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</CompileAsWinRT>
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</CompileAsWinRT>
-      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</CompileAsWinRT>
+      <CompileAsWinRT>true</CompileAsWinRT>
+    </ClCompile>
+    <ClCompile Include="..\src\UWPDataCopy.cpp">
+      <CompileAsWinRT>true</CompileAsWinRT>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -501,638 +3119,404 @@
     <ClInclude Include="..\src\opl3.h" />
     <ClInclude Include="..\src\proto.h" />
     <ClInclude Include="..\src\types.h" />
+    <ClInclude Include="..\src\UWPDataCopy.h" />
   </ItemGroup>
   <ItemGroup>
-    
-            
-     <None Include="..\data\DIGISND1.DAT">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    
-     <None Include="..\data\DIGISND2.DAT">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    
-     <None Include="..\data\DIGISND3.DAT">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    
-    
-     <None Include="..\data\GUARD.DAT">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    
-     <None Include="..\data\GUARD1.DAT">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    
-     <None Include="..\data\GUARD2.DAT">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    
-    
-     <None Include="..\data\MIDISND1.DAT">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    
-     <None Include="..\data\MIDISND2.DAT">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    
-    
-    
-    <!-- Data\FAT\ -->
-     <None Include="..\data\FAT\res750.pal">
-      <DeploymentContent>true</DeploymentContent>
-    </None>  
-    
-    
-    
-      
-    
-    <None Include="..\data\IBM_SND1\res10000.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10001.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10002.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10003.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10004.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10005.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10006.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10007.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10008.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10009.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10010.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10011.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10012.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10013.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10014.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10015.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10016.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10017.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10018.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10019.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10020.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10021.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10022.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10023.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10024.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10025.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10026.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10027.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10028.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10029.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10030.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10031.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10032.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10033.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10034.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10035.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10036.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10037.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10038.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10039.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10040.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10041.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10042.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND1\res10043.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND2\res10044.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND2\res10045.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND2\res10046.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND2\res10047.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND2\res10048.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND2\res10049.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND2\res10050.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND2\res10051.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND2\res10052.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND2\res10053.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND2\res10054.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND2\res10055.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\IBM_SND2\res10056.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2000.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2001.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2002.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2003.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2004.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2005.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2006.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2007.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2008.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2009.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2010.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2011.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2012.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2013.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2014.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\levels-original\res2015.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2000.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2001.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2002.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2003.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2004.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2005.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2006.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2007.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2008.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2009.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2010.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2011.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2012.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2013.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2014.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\LEVELS\res2015.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\PRINCE\res1.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\PRINCE\res10.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
     <None Include="..\SDLPoP.ini">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\DIGISND1.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\DIGISND2.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\DIGISND3.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\FAT\res750.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\font\res1000.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\GUARD.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\GUARD1.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\GUARD1\res750.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\GUARD2.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\GUARD2\res750.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10000.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10001.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10002.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10003.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10004.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10005.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10006.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10007.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10008.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10009.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10010.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10011.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10012.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10013.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10014.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10015.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10016.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10017.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10018.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10019.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10020.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10021.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10022.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10023.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10024.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10025.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10026.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10027.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10028.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10029.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10030.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10031.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10032.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10033.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10034.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10035.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10036.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10037.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10038.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10039.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10040.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10041.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10042.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND1\res10043.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND2\res10044.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND2\res10045.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND2\res10046.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND2\res10047.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND2\res10048.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND2\res10049.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND2\res10050.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND2\res10051.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND2\res10052.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND2\res10053.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND2\res10054.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND2\res10055.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\IBM_SND2\res10056.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\KID\res400.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2000.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2001.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2002.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2003.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2004.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2005.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2006.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2007.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2008.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2009.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2010.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2011.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2012.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2013.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2014.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-original\res2015.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-test\01-micro-room-change">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-test\01-weird-room-change">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-test\02-bigpillar-climb">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-test\02-guard-following">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-test\02-random-broken">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-test\02-walls">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-test\04-through-tapestry">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-test\05-stacked-gates">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-test\07-jump">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\levels-test\12-shadow">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2000.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2001.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2002.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2003.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2004.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2005.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2006.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2007.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2008.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2009.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2010.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2011.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2012.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2013.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2014.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\LEVELS\res2015.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\MIDISND1.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\MIDISND2.DAT">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\PRINCE\res1.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\PRINCE\res10.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\PRINCE\res150.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\PRINCE\res700.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\PV\res800.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\PV\res850.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\PV\res900.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\PV\res950.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\PV\res980.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\SHADOW\res750.pal" />
+    <None Include="data\SKEL\res750.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\TITLE\res40.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\TITLE\res50.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\VDUNGEON\res200.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\VDUNGEON\res360.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\VIZIER\res750.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\VPALACE\res200.pal">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="data\VPALACE\res360.pal">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="Externals\SDL2\src\main\winrt\SDL2-WinRTResource_BlankCursor.cur" />
     <None Include="SDLPop_TemporaryKey.pfx" />
     <!-- BEGIN AUTO-GENERATED RESOURCE LIST: All missing files from src/data recursively -->
     <!-- AUTO-GENERATED START -->
-    <None Include="..\data\font\res1000.pal">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1032.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1033.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1034.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1035.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1036.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1037.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1038.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1039.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1040.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1041.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1042.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1043.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1044.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1045.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1046.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1047.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1048.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1049.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1050.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1051.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1052.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1053.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1054.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1055.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1056.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1057.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1058.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1059.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1060.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1061.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1062.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1063.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1064.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1065.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1066.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1067.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1068.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1069.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1070.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1071.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1072.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1073.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1074.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1075.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1076.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1077.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1078.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1079.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1080.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1081.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1082.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1083.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1084.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1085.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1086.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1087.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1088.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1089.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1090.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1091.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1092.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1093.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1094.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1095.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1096.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1097.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1098.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1099.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1100.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1101.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1102.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1103.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1104.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1105.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1106.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1107.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1108.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1109.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1110.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1111.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1112.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1113.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1114.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1115.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1116.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1117.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1118.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1119.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1120.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1121.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1122.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1123.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1124.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1125.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1126.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1127.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1128.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1129.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1130.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="..\data\font\res1131.png">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
     <!-- AUTO-GENERATED END -->
   </ItemGroup>
   <ItemGroup>
@@ -1145,6 +3529,9 @@
     <ProjectReference Include="..\SDL2_image\SDL_image-UWP.vcxproj">
       <Project>{29b4d11f-59f3-4ebc-a769-3babd140db9a}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\music\names.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

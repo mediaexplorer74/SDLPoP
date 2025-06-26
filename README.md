@@ -1,7 +1,7 @@
-# SDLPop 1.0.9 - main branch
+# SDLPop 1.0.10 - main branch
 ![](Images/logo.png)
 
-SDL2+SDL2_Image Port to W10M 15063 (Game "P.o.P." is not interested for me, it was used only for RnD) 
+SDL2 + SDL2_Image + SDLPop ported to W10M 10240. 
 
 ## About UWP SDLPoP
 An open-source port of Prince of Persia to Xbox One and Series consoles via UWP, based on the disassembly of the DOS version, extended with new features.
@@ -11,36 +11,13 @@ An open-source port of Prince of Persia to Xbox One and Series consoles via UWP,
 ![W10M -Lumia 950](Images/sshot02.png)
 
 # Status
-- Game runs but data\ files not properly added (injected) into SDLPoP.vcxproj \ SDLPoP.vcxproj.filters :(
-- With help of "Trae" AI (hello, ByteDance!), mouse & touchpanel game input added :)
+- Game resources data auto-loading fixed (I hope)
+- With help of "Trae" AI (hello, ByteDance!), mouse & touchpanel game input parttially added 
+- Game runs ok but there are some problems to save\restore settings (.ini file error?) when I tested it on my PC 
 
 ## TODO
-- Try to construct cleve prompt that allows Trae or WindSurf automattically fix proj files (I mean "add data files" dev-op). 
-
-## Plan of your own RnD / dev-ops 
-1. Fork this repo
-
-2. Run Visual Studio 2022
-
-3. Try to run the game under Debugger. See error messge ".... PRINCE.DAT". 
-
-4. Explore the solution: data\ folder (file structure), then SDLPoP.vcxproj & SDLPoP.vcxproj.filters.
-
-5. Find missing/broken "links" such as 
-```
-<None Include="..\data\IBM_SND1\res10000.bin">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-
-```
-
-```
-  <None Include="..\data\IBM_SND1\res10000.bin" />
-```
-
-6. Fix the filters and that links (https://learn.microsoft.com/en-us/cpp/build/reference/vcxproj-filters-files?view=msvc-170)
-
-7. Try to start the Prince game again... ;)
+- Add full touchscreen game input (and, may,be mouse too).
+- Fix settings seve/restore bug(s). 
 
 ## Useful links
 Forum board: https://forum.princed.org/viewforum.php?f=126
@@ -93,6 +70,6 @@ https://github.com/mediaexplorer74/SDLPoP/wiki
 AS IS. SDLPoP is SDL RnD only, not for gaming. 
 
 ## .
--- [m][e] 2025
+-- [m][e] June, 25 2025
 
 ![](Images/footer.png)

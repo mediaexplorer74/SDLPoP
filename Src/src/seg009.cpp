@@ -50,11 +50,13 @@ void find_exe_dir()
 	if (found_exe_dir) return;
 
 	// Get the path to the app's installation folder ...
-	String^ appPath = Windows::ApplicationModel::Package::Current->InstalledLocation->Path;
+	//String^ localfolderPath = Windows::Storage::ApplicationData::Current->LocalFolder->Path;
+	String^ appfolderPath = Windows::ApplicationModel::Package::Current->InstalledLocation->Path;// +"\\data";
 
 	wcstombs(
       exe_dir,
-      appPath->Data(),
+      //localfolderPath->Data(),
+		appfolderPath->Data(),
       POP_MAX_PATH
     );
 
@@ -3456,6 +3458,17 @@ void toggle_fullscreen() {
 bool ignore_tab = false;
 
 void process_events() {
+    static int touch_finger_count = 0;
+    static SDL_FingerID touch_fingers[10]; // track up to 10 fingers
+    static int swipe_start_x[10], swipe_start_y[10];
+    static int swipe_active[10] = {0};
+    static int swipe_detected = 0;
+    static Uint32 swipe_time[10];
+    const int SWIPE_THRESHOLD = 80; // pixels
+    const Uint32 SWIPE_TIME_WINDOW = 500; // ms
+
+    // ... (rest of function unchanged until event loop)
+
 	// Process all events in the queue.
 	// Previously, this procedure would wait for *one* event and process it, then return.
 	// Much like the x86 HLT instruction.
@@ -3468,6 +3481,31 @@ void process_events() {
 		{
 			int modifier = event.key.keysym.mod;
 			int scancode = event.key.keysym.scancode;
+
+			// Remap ESC to menu
+			if (scancode == SDL_SCANCODE_ESCAPE) {
+				last_key_scancode = SDL_SCANCODE_BACKSPACE;
+				break;
+			}
+			// N for next level
+			if (scancode == SDL_SCANCODE_N) {
+				//extern int current_level;
+				current_level++;
+				play_level(current_level);
+				break;
+			}
+			// B for previous level
+			if (scancode == SDL_SCANCODE_B) {
+				//extern int current_level;
+				if (current_level > 0) current_level--;
+				play_level(current_level);
+				break;
+			}
+
+			//int 
+			modifier = event.key.keysym.mod;
+			//int 
+			scancode = event.key.keysym.scancode;
 
 			// Handle these separately, so they won't interrupt things that are usually interrupted by a keypress. (pause, cutscene)
 #ifdef USE_FAST_FORWARD
@@ -3560,7 +3598,8 @@ void process_events() {
 						case SDL_SCANCODE_KP_7:
 						case SDL_SCANCODE_KP_8:
 						case SDL_SCANCODE_KP_9:
-							if (!is_keyboard_mode) {
+							if (!is_keyboard_mode) 
+							{
 								is_keyboard_mode = 1;
 								is_joyst_mode = 0;
 							}
@@ -3574,7 +3613,8 @@ void process_events() {
 			if (event.key.keysym.scancode == SDL_SCANCODE_TAB && ignore_tab) ignore_tab = false;
 
 #ifdef USE_FAST_FORWARD
-			if (event.key.keysym.scancode == SDL_SCANCODE_GRAVE) {
+			if (event.key.keysym.scancode == SDL_SCANCODE_GRAVE) 
+			{
 				init_timer(BASE_FPS); // fast-forward off
 				audio_speed = 1;
 				break;
@@ -3603,7 +3643,8 @@ void process_events() {
 			break;
 		case SDL_CONTROLLERBUTTONDOWN:
 #ifdef USE_AUTO_INPUT_MODE
-			if (!is_joyst_mode) {
+			if (!is_joyst_mode) 
+			{
 				is_joyst_mode = 1;
 				is_keyboard_mode = 0;
 			}
@@ -3737,70 +3778,123 @@ void process_events() {
 			}
 			break;
 #ifdef USE_MENU
-		case SDL_MOUSEBUTTONDOWN:
-			switch (event.button.button) {
-			break;
-		case SDL_MOUSEWHEEL:
-			if (is_menu_shown) {
-				menu_control_scroll_y = -event.wheel.y;
-			}
-			break;
-		// TOUCH PANEL SUPPORT
-		case SDL_FINGERDOWN:
+  case SDL_MOUSEBUTTONDOWN:
+			
+	   switch (event.button.button) 
 		{
-			int win_w = 0, win_h = 0;
-			SDL_GetWindowSize(window_, &win_w, &win_h);
-			int touch_x = (int)(event.tfinger.x * win_w);
-			int touch_y = (int)(event.tfinger.y * win_h);
-			mouse_x = touch_x;
-			mouse_y = touch_y;
-			mouse_moved = true;
-			mouse_clicked = true;
-			have_mouse_input = 1;
-			if (!is_menu_shown) {
-				last_key_scancode = SDL_SCANCODE_BACKSPACE;
-			}
 			break;
-		}
+			case SDL_MOUSEWHEEL:
+				if (is_menu_shown) 
+				{
+					menu_control_scroll_y = -event.wheel.y;
+				}
+				break;
+			// TOUCH PANEL SUPPORT
+			case SDL_FINGERDOWN:
+			{
+				// Track finger count and start positions
+				touch_finger_count++;
+				for (int i = 0; i < 10; ++i) {
+					if (!swipe_active[i]) {
+						touch_fingers[i] = event.tfinger.fingerId;
+						swipe_start_x[i] = (int)(event.tfinger.x * /*win_w*/100);
+						swipe_start_y[i] = (int)(event.tfinger.y * /*win_h*/100);
+						swipe_time[i] = SDL_GetTicks();
+						swipe_active[i] = 1;
+						break;
+					}
+				}
+				break;
+				//
+				//...
+			}
+
 		case SDL_FINGERMOTION:
 		{
 			int win_w = 0, win_h = 0;
 			SDL_GetWindowSize(window_, &win_w, &win_h);
 			int touch_x = (int)(event.tfinger.x * win_w);
 			int touch_y = (int)(event.tfinger.y * win_h);
-			mouse_x = touch_x;
-			mouse_y = touch_y;
-			mouse_moved = true;
-			have_mouse_input = 1;
+			for (int i = 0; i < 10; ++i) {
+				if (swipe_active[i] && touch_fingers[i] == event.tfinger.fingerId) {
+					int dx = touch_x - swipe_start_x[i];
+					int dy = touch_y - swipe_start_y[i];
+					Uint32 dt = SDL_GetTicks() - swipe_time[i];
+					if (dt < SWIPE_TIME_WINDOW) {
+						if (!swipe_detected && touch_finger_count >= 3) {
+							if (abs(dy) > SWIPE_THRESHOLD && abs(dy) > abs(dx)) {
+								// Three-finger swipe up/down
+								if (dy < 0) {
+									last_key_scancode = SDL_SCANCODE_BACKSPACE; // menu
+									swipe_detected = 1;
+								}
+							} else if (abs(dx) > SWIPE_THRESHOLD) {
+								if (dx > 0) {
+									//extern int current_level;
+									current_level++;
+									play_level(current_level);
+									swipe_detected = 1;
+								} else if (dx < 0) {
+									//extern int current_level;
+									if (current_level > 0) current_level--;
+									play_level(current_level);
+									swipe_detected = 1;
+								}
+							}
+						}
+					}
+					break;
+				}
+			}
 			break;
 		}
+
 		case SDL_FINGERUP:
-			break;
-			case SDL_BUTTON_LEFT:
-				if (!is_menu_shown) {
-					last_key_scancode = SDL_SCANCODE_BACKSPACE;
+		{
+			// Remove finger from tracking
+			touch_finger_count--;
+			for (int i = 0; i < 10; ++i) {
+				if (swipe_active[i] && touch_fingers[i] == event.tfinger.fingerId) {
+					swipe_active[i] = 0;
+					if (touch_finger_count < 3) swipe_detected = 0;
+					break;
 				}
-				else {
+			}
+			break;
+		}
+
+			case SDL_BUTTON_LEFT:
+				if (!is_menu_shown) 
+				{
+					last_key_scancode = SDL_SCANCODE_SPACE;
+					//mouse_clicked = true;
+				}
+				else 
+				{
 					mouse_clicked = true;
 				}
 				break;
+		
 			case SDL_BUTTON_RIGHT:
 			case SDL_BUTTON_X1: // 'Back' button (on mice that have these extra buttons).
-				mouse_button_clicked_right = true;
+				// Remap right mouse button to menu
+				last_key_scancode = SDL_SCANCODE_BACKSPACE;
 				break;
 			default: break;
-			}
+		}
 
 			break;
 		case SDL_MOUSEWHEEL:
-			if (is_menu_shown) {
+			if (is_menu_shown) 
+			{
 				menu_control_scroll_y = -event.wheel.y;
 			}
 			break;
 #endif
 		case SDL_QUIT:
 #ifdef USE_MENU
-			if (is_menu_shown) {
+			if (is_menu_shown) 
+			{
 				menu_was_closed();
 			}
 #endif
